@@ -259,6 +259,69 @@ cards/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cards.dir/build.make CMakeFiles/cards.dir/build
 .PHONY : cards/fast
 
+#=============================================================================
+# Target rules for targets named animal
+
+# Build rule for target.
+animal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 animal
+.PHONY : animal
+
+# fast build rule for target.
+animal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/build
+.PHONY : animal/fast
+
+#=============================================================================
+# Target rules for targets named template
+
+# Build rule for target.
+template: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template
+.PHONY : template
+
+# fast build rule for target.
+template/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/build
+.PHONY : template/fast
+
+#=============================================================================
+# Target rules for targets named classTemplate
+
+# Build rule for target.
+classTemplate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classTemplate
+.PHONY : classTemplate
+
+# fast build rule for target.
+classTemplate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/build
+.PHONY : classTemplate/fast
+
+src/animal.o: src/animal.cpp.o
+.PHONY : src/animal.o
+
+# target to build an object file
+src/animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/src/animal.cpp.o
+.PHONY : src/animal.cpp.o
+
+src/animal.i: src/animal.cpp.i
+.PHONY : src/animal.i
+
+# target to preprocess a source file
+src/animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/src/animal.cpp.i
+.PHONY : src/animal.cpp.i
+
+src/animal.s: src/animal.cpp.s
+.PHONY : src/animal.s
+
+# target to generate assembly for a file
+src/animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/src/animal.cpp.s
+.PHONY : src/animal.cpp.s
+
 src/cards.o: src/cards.cpp.o
 .PHONY : src/cards.o
 
@@ -282,6 +345,30 @@ src/cards.s: src/cards.cpp.s
 src/cards.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cards.dir/build.make CMakeFiles/cards.dir/src/cards.cpp.s
 .PHONY : src/cards.cpp.s
+
+src/classTemplate.o: src/classTemplate.cpp.o
+.PHONY : src/classTemplate.o
+
+# target to build an object file
+src/classTemplate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/src/classTemplate.cpp.o
+.PHONY : src/classTemplate.cpp.o
+
+src/classTemplate.i: src/classTemplate.cpp.i
+.PHONY : src/classTemplate.i
+
+# target to preprocess a source file
+src/classTemplate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/src/classTemplate.cpp.i
+.PHONY : src/classTemplate.cpp.i
+
+src/classTemplate.s: src/classTemplate.cpp.s
+.PHONY : src/classTemplate.s
+
+# target to generate assembly for a file
+src/classTemplate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/src/classTemplate.cpp.s
+.PHONY : src/classTemplate.cpp.s
 
 src/doWhile.o: src/doWhile.cpp.o
 .PHONY : src/doWhile.o
@@ -475,6 +562,30 @@ src/switch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/src/switch.cpp.s
 .PHONY : src/switch.cpp.s
 
+src/template.o: src/template.cpp.o
+.PHONY : src/template.o
+
+# target to build an object file
+src/template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/src/template.cpp.o
+.PHONY : src/template.cpp.o
+
+src/template.i: src/template.cpp.i
+.PHONY : src/template.i
+
+# target to preprocess a source file
+src/template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/src/template.cpp.i
+.PHONY : src/template.cpp.i
+
+src/template.s: src/template.cpp.s
+.PHONY : src/template.s
+
+# target to generate assembly for a file
+src/template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/src/template.cpp.s
+.PHONY : src/template.cpp.s
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -531,7 +642,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... animal"
 	@echo "... cards"
+	@echo "... classTemplate"
 	@echo "... doWhile"
 	@echo "... for"
 	@echo "... hello"
@@ -540,11 +653,18 @@ help:
 	@echo "... ifElseIf2"
 	@echo "... in_out"
 	@echo "... switch"
+	@echo "... template"
 	@echo "... test"
 	@echo "... while"
+	@echo "... src/animal.o"
+	@echo "... src/animal.i"
+	@echo "... src/animal.s"
 	@echo "... src/cards.o"
 	@echo "... src/cards.i"
 	@echo "... src/cards.s"
+	@echo "... src/classTemplate.o"
+	@echo "... src/classTemplate.i"
+	@echo "... src/classTemplate.s"
 	@echo "... src/doWhile.o"
 	@echo "... src/doWhile.i"
 	@echo "... src/doWhile.s"
@@ -569,6 +689,9 @@ help:
 	@echo "... src/switch.o"
 	@echo "... src/switch.i"
 	@echo "... src/switch.s"
+	@echo "... src/template.o"
+	@echo "... src/template.i"
+	@echo "... src/template.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

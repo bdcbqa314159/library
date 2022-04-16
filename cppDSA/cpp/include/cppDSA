@@ -4,5 +4,6 @@
 #include "cppDSA_bits/test.hpp"
 #include "cppDSA_bits/random.hpp"
 #include "cppDSA_bits/cards.hpp"
+#include "cppDSA_bits/animal.hpp"
 
 #endif

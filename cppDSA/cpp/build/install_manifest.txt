@@ -4,3 +4,4 @@
 /usr/local/include/cppDSA_bits/random.hpp
 /usr/local/include/cppDSA_bits/cards.hpp
 /usr/local/include/cppDSA_bits/test.hpp
+/usr/local/include/cppDSA_bits/animal.hpp

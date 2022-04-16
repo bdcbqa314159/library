@@ -9,5 +9,8 @@
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/while.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/doWhile.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/cards.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/animal.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/template.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/classTemplate.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/edit_cache.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/rebuild_cache.dir

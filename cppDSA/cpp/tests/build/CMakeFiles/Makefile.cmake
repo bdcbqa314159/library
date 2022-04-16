@@ -58,4 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/while.dir/DependInfo.cmake"
   "CMakeFiles/doWhile.dir/DependInfo.cmake"
   "CMakeFiles/cards.dir/DependInfo.cmake"
+  "CMakeFiles/animal.dir/DependInfo.cmake"
+  "CMakeFiles/template.dir/DependInfo.cmake"
+  "CMakeFiles/classTemplate.dir/DependInfo.cmake"
   )

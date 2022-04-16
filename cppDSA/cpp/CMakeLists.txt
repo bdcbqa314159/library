@@ -21,6 +21,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/test.hpp
     ${PROJECT_INCLUDE_DIR}/random.hpp
     ${PROJECT_INCLUDE_DIR}/cards.hpp
+    ${PROJECT_INCLUDE_DIR}/animal.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp

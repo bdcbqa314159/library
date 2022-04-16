@@ -74,6 +74,9 @@ all: CMakeFiles/for.dir/all
 all: CMakeFiles/while.dir/all
 all: CMakeFiles/doWhile.dir/all
 all: CMakeFiles/cards.dir/all
+all: CMakeFiles/animal.dir/all
+all: CMakeFiles/template.dir/all
+all: CMakeFiles/classTemplate.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -92,6 +95,9 @@ clean: CMakeFiles/for.dir/clean
 clean: CMakeFiles/while.dir/clean
 clean: CMakeFiles/doWhile.dir/clean
 clean: CMakeFiles/cards.dir/clean
+clean: CMakeFiles/animal.dir/clean
+clean: CMakeFiles/template.dir/clean
+clean: CMakeFiles/classTemplate.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -101,7 +107,7 @@ clean: CMakeFiles/cards.dir/clean
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=19,20 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=25,26 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,7 +133,7 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/in_out.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/in_out.dir/build.make CMakeFiles/in_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/in_out.dir/build.make CMakeFiles/in_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=15,16 "Built target in_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=19,20 "Built target in_out"
 .PHONY : CMakeFiles/in_out.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,7 +159,7 @@ CMakeFiles/in_out.dir/clean:
 CMakeFiles/hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=7,8 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=11,12 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,7 +185,7 @@ CMakeFiles/hello.dir/clean:
 CMakeFiles/ifElse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElse.dir/build.make CMakeFiles/ifElse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElse.dir/build.make CMakeFiles/ifElse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=9,10 "Built target ifElse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=13,14 "Built target ifElse"
 .PHONY : CMakeFiles/ifElse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,7 +211,7 @@ CMakeFiles/ifElse.dir/clean:
 CMakeFiles/ifElseIf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElseIf.dir/build.make CMakeFiles/ifElseIf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElseIf.dir/build.make CMakeFiles/ifElseIf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=11,12 "Built target ifElseIf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=15,16 "Built target ifElseIf"
 .PHONY : CMakeFiles/ifElseIf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +237,7 @@ CMakeFiles/ifElseIf.dir/clean:
 CMakeFiles/ifElseIf2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElseIf2.dir/build.make CMakeFiles/ifElseIf2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ifElseIf2.dir/build.make CMakeFiles/ifElseIf2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=13,14 "Built target ifElseIf2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=17,18 "Built target ifElseIf2"
 .PHONY : CMakeFiles/ifElseIf2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,7 +263,7 @@ CMakeFiles/ifElseIf2.dir/clean:
 CMakeFiles/switch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=17,18 "Built target switch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=21,22 "Built target switch"
 .PHONY : CMakeFiles/switch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -283,7 +289,7 @@ CMakeFiles/switch.dir/clean:
 CMakeFiles/for.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=5,6 "Built target for"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=9,10 "Built target for"
 .PHONY : CMakeFiles/for.dir/all
 
 # Build rule for subdir invocation for target.
@@ -309,7 +315,7 @@ CMakeFiles/for.dir/clean:
 CMakeFiles/while.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=21,22 "Built target while"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=27,28 "Built target while"
 .PHONY : CMakeFiles/while.dir/all
 
 # Build rule for subdir invocation for target.
@@ -335,7 +341,7 @@ CMakeFiles/while.dir/clean:
 CMakeFiles/doWhile.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhile.dir/build.make CMakeFiles/doWhile.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhile.dir/build.make CMakeFiles/doWhile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=3,4 "Built target doWhile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=7,8 "Built target doWhile"
 .PHONY : CMakeFiles/doWhile.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +367,7 @@ CMakeFiles/doWhile.dir/clean:
 CMakeFiles/cards.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cards.dir/build.make CMakeFiles/cards.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cards.dir/build.make CMakeFiles/cards.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=1,2 "Built target cards"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=3,4 "Built target cards"
 .PHONY : CMakeFiles/cards.dir/all
 
 # Build rule for subdir invocation for target.
@@ -379,6 +385,84 @@ cards: CMakeFiles/cards.dir/rule
 CMakeFiles/cards.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cards.dir/build.make CMakeFiles/cards.dir/clean
 .PHONY : CMakeFiles/cards.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/animal.dir
+
+# All Build rule for target.
+CMakeFiles/animal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=1,2 "Built target animal"
+.PHONY : CMakeFiles/animal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/animal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/animal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/animal.dir/rule
+
+# Convenience name for target.
+animal: CMakeFiles/animal.dir/rule
+.PHONY : animal
+
+# clean rule for target.
+CMakeFiles/animal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/clean
+.PHONY : CMakeFiles/animal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/template.dir
+
+# All Build rule for target.
+CMakeFiles/template.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=23,24 "Built target template"
+.PHONY : CMakeFiles/template.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/template.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/template.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/template.dir/rule
+
+# Convenience name for target.
+template: CMakeFiles/template.dir/rule
+.PHONY : template
+
+# clean rule for target.
+CMakeFiles/template.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/clean
+.PHONY : CMakeFiles/template.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/classTemplate.dir
+
+# All Build rule for target.
+CMakeFiles/classTemplate.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles --progress-num=5,6 "Built target classTemplate"
+.PHONY : CMakeFiles/classTemplate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/classTemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/classTemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/classTemplate.dir/rule
+
+# Convenience name for target.
+classTemplate: CMakeFiles/classTemplate.dir/rule
+.PHONY : classTemplate
+
+# clean rule for target.
+CMakeFiles/classTemplate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/clean
+.PHONY : CMakeFiles/classTemplate.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
