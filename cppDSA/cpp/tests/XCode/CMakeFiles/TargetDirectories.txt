@@ -1,0 +1,13 @@
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/test.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/in_out.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/hello.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ifElse.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ifElseIf.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ifElseIf2.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/switch.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/for.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/while.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/doWhile.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/cards.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ZERO_CHECK.dir

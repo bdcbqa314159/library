@@ -1,0 +1,13 @@
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/test.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/in_out.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/hello.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/ifElse.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/ifElseIf.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/ifElseIf2.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/switch.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/for.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/while.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/doWhile.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/cards.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/edit_cache.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/rebuild_cache.dir
