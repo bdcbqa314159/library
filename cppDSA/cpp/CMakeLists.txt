@@ -22,10 +22,17 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/random.hpp
     ${PROJECT_INCLUDE_DIR}/cards.hpp
     ${PROJECT_INCLUDE_DIR}/animal.hpp
+    ${PROJECT_INCLUDE_DIR}/list.hpp
+    ${PROJECT_INCLUDE_DIR}/node.hpp
+    ${PROJECT_INCLUDE_DIR}/linkedList.hpp
+    ${PROJECT_INCLUDE_DIR}/doublyLinkedList.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp
     ${PROJECT_SOURCE_DIR}/cards.cpp
+    ${PROJECT_SOURCE_DIR}/list.cpp
+    ${PROJECT_SOURCE_DIR}/node.cpp
+    
 )
 
 # Set up such that XCode organizes the files correctly

@@ -298,6 +298,84 @@ classTemplate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/classTemplate.dir/build.make CMakeFiles/classTemplate.dir/build
 .PHONY : classTemplate/fast
 
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named arrayAsPointer
+
+# Build rule for target.
+arrayAsPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayAsPointer
+.PHONY : arrayAsPointer
+
+# fast build rule for target.
+arrayAsPointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsPointer.dir/build.make CMakeFiles/arrayAsPointer.dir/build
+.PHONY : arrayAsPointer/fast
+
+#=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
+# Target rules for targets named printNode
+
+# Build rule for target.
+printNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printNode
+.PHONY : printNode
+
+# fast build rule for target.
+printNode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printNode.dir/build.make CMakeFiles/printNode.dir/build
+.PHONY : printNode/fast
+
+#=============================================================================
+# Target rules for targets named linkedList
+
+# Build rule for target.
+linkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkedList
+.PHONY : linkedList
+
+# fast build rule for target.
+linkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/build
+.PHONY : linkedList/fast
+
+#=============================================================================
+# Target rules for targets named doublyLinkedList
+
+# Build rule for target.
+doublyLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doublyLinkedList
+.PHONY : doublyLinkedList
+
+# fast build rule for target.
+doublyLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doublyLinkedList.dir/build.make CMakeFiles/doublyLinkedList.dir/build
+.PHONY : doublyLinkedList/fast
+
 src/animal.o: src/animal.cpp.o
 .PHONY : src/animal.o
 
@@ -321,6 +399,54 @@ src/animal.s: src/animal.cpp.s
 src/animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/animal.dir/build.make CMakeFiles/animal.dir/src/animal.cpp.s
 .PHONY : src/animal.cpp.s
+
+src/array.o: src/array.cpp.o
+.PHONY : src/array.o
+
+# target to build an object file
+src/array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/src/array.cpp.o
+.PHONY : src/array.cpp.o
+
+src/array.i: src/array.cpp.i
+.PHONY : src/array.i
+
+# target to preprocess a source file
+src/array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/src/array.cpp.i
+.PHONY : src/array.cpp.i
+
+src/array.s: src/array.cpp.s
+.PHONY : src/array.s
+
+# target to generate assembly for a file
+src/array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/src/array.cpp.s
+.PHONY : src/array.cpp.s
+
+src/arrayAsPointer.o: src/arrayAsPointer.cpp.o
+.PHONY : src/arrayAsPointer.o
+
+# target to build an object file
+src/arrayAsPointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsPointer.dir/build.make CMakeFiles/arrayAsPointer.dir/src/arrayAsPointer.cpp.o
+.PHONY : src/arrayAsPointer.cpp.o
+
+src/arrayAsPointer.i: src/arrayAsPointer.cpp.i
+.PHONY : src/arrayAsPointer.i
+
+# target to preprocess a source file
+src/arrayAsPointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsPointer.dir/build.make CMakeFiles/arrayAsPointer.dir/src/arrayAsPointer.cpp.i
+.PHONY : src/arrayAsPointer.cpp.i
+
+src/arrayAsPointer.s: src/arrayAsPointer.cpp.s
+.PHONY : src/arrayAsPointer.s
+
+# target to generate assembly for a file
+src/arrayAsPointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayAsPointer.dir/build.make CMakeFiles/arrayAsPointer.dir/src/arrayAsPointer.cpp.s
+.PHONY : src/arrayAsPointer.cpp.s
 
 src/cards.o: src/cards.cpp.o
 .PHONY : src/cards.o
@@ -393,6 +519,30 @@ src/doWhile.s: src/doWhile.cpp.s
 src/doWhile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhile.dir/build.make CMakeFiles/doWhile.dir/src/doWhile.cpp.s
 .PHONY : src/doWhile.cpp.s
+
+src/doublyLinkedList.o: src/doublyLinkedList.cpp.o
+.PHONY : src/doublyLinkedList.o
+
+# target to build an object file
+src/doublyLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doublyLinkedList.dir/build.make CMakeFiles/doublyLinkedList.dir/src/doublyLinkedList.cpp.o
+.PHONY : src/doublyLinkedList.cpp.o
+
+src/doublyLinkedList.i: src/doublyLinkedList.cpp.i
+.PHONY : src/doublyLinkedList.i
+
+# target to preprocess a source file
+src/doublyLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doublyLinkedList.dir/build.make CMakeFiles/doublyLinkedList.dir/src/doublyLinkedList.cpp.i
+.PHONY : src/doublyLinkedList.cpp.i
+
+src/doublyLinkedList.s: src/doublyLinkedList.cpp.s
+.PHONY : src/doublyLinkedList.s
+
+# target to generate assembly for a file
+src/doublyLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doublyLinkedList.dir/build.make CMakeFiles/doublyLinkedList.dir/src/doublyLinkedList.cpp.s
+.PHONY : src/doublyLinkedList.cpp.s
 
 src/for.o: src/for.cpp.o
 .PHONY : src/for.o
@@ -538,6 +688,78 @@ src/in_out.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/in_out.dir/build.make CMakeFiles/in_out.dir/src/in_out.cpp.s
 .PHONY : src/in_out.cpp.s
 
+src/linkedList.o: src/linkedList.cpp.o
+.PHONY : src/linkedList.o
+
+# target to build an object file
+src/linkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/src/linkedList.cpp.o
+.PHONY : src/linkedList.cpp.o
+
+src/linkedList.i: src/linkedList.cpp.i
+.PHONY : src/linkedList.i
+
+# target to preprocess a source file
+src/linkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/src/linkedList.cpp.i
+.PHONY : src/linkedList.cpp.i
+
+src/linkedList.s: src/linkedList.cpp.s
+.PHONY : src/linkedList.s
+
+# target to generate assembly for a file
+src/linkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/src/linkedList.cpp.s
+.PHONY : src/linkedList.cpp.s
+
+src/list.o: src/list.cpp.o
+.PHONY : src/list.o
+
+# target to build an object file
+src/list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/list.cpp.o
+.PHONY : src/list.cpp.o
+
+src/list.i: src/list.cpp.i
+.PHONY : src/list.i
+
+# target to preprocess a source file
+src/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/list.cpp.i
+.PHONY : src/list.cpp.i
+
+src/list.s: src/list.cpp.s
+.PHONY : src/list.s
+
+# target to generate assembly for a file
+src/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/list.cpp.s
+.PHONY : src/list.cpp.s
+
+src/printNode.o: src/printNode.cpp.o
+.PHONY : src/printNode.o
+
+# target to build an object file
+src/printNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printNode.dir/build.make CMakeFiles/printNode.dir/src/printNode.cpp.o
+.PHONY : src/printNode.cpp.o
+
+src/printNode.i: src/printNode.cpp.i
+.PHONY : src/printNode.i
+
+# target to preprocess a source file
+src/printNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printNode.dir/build.make CMakeFiles/printNode.dir/src/printNode.cpp.i
+.PHONY : src/printNode.cpp.i
+
+src/printNode.s: src/printNode.cpp.s
+.PHONY : src/printNode.s
+
+# target to generate assembly for a file
+src/printNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printNode.dir/build.make CMakeFiles/printNode.dir/src/printNode.cpp.s
+.PHONY : src/printNode.cpp.s
+
 src/switch.o: src/switch.cpp.o
 .PHONY : src/switch.o
 
@@ -643,15 +865,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... animal"
+	@echo "... array"
+	@echo "... arrayAsPointer"
 	@echo "... cards"
 	@echo "... classTemplate"
 	@echo "... doWhile"
+	@echo "... doublyLinkedList"
 	@echo "... for"
 	@echo "... hello"
 	@echo "... ifElse"
 	@echo "... ifElseIf"
 	@echo "... ifElseIf2"
 	@echo "... in_out"
+	@echo "... linkedList"
+	@echo "... list"
+	@echo "... printNode"
 	@echo "... switch"
 	@echo "... template"
 	@echo "... test"
@@ -659,6 +887,12 @@ help:
 	@echo "... src/animal.o"
 	@echo "... src/animal.i"
 	@echo "... src/animal.s"
+	@echo "... src/array.o"
+	@echo "... src/array.i"
+	@echo "... src/array.s"
+	@echo "... src/arrayAsPointer.o"
+	@echo "... src/arrayAsPointer.i"
+	@echo "... src/arrayAsPointer.s"
 	@echo "... src/cards.o"
 	@echo "... src/cards.i"
 	@echo "... src/cards.s"
@@ -668,6 +902,9 @@ help:
 	@echo "... src/doWhile.o"
 	@echo "... src/doWhile.i"
 	@echo "... src/doWhile.s"
+	@echo "... src/doublyLinkedList.o"
+	@echo "... src/doublyLinkedList.i"
+	@echo "... src/doublyLinkedList.s"
 	@echo "... src/for.o"
 	@echo "... src/for.i"
 	@echo "... src/for.s"
@@ -686,6 +923,15 @@ help:
 	@echo "... src/in_out.o"
 	@echo "... src/in_out.i"
 	@echo "... src/in_out.s"
+	@echo "... src/linkedList.o"
+	@echo "... src/linkedList.i"
+	@echo "... src/linkedList.s"
+	@echo "... src/list.o"
+	@echo "... src/list.i"
+	@echo "... src/list.s"
+	@echo "... src/printNode.o"
+	@echo "... src/printNode.i"
+	@echo "... src/printNode.s"
 	@echo "... src/switch.o"
 	@echo "... src/switch.i"
 	@echo "... src/switch.s"

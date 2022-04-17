@@ -12,5 +12,11 @@
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/animal.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/template.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/classTemplate.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/array.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/arrayAsPointer.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/list.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/printNode.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/linkedList.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/doublyLinkedList.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/edit_cache.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/build/CMakeFiles/rebuild_cache.dir

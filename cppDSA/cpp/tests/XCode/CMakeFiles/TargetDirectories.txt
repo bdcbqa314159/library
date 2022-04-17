@@ -9,5 +9,13 @@
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/while.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/doWhile.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/cards.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/animal.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/template.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/classTemplate.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/array.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/arrayAsPointer.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/list.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/printNode.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/linkedList.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ALL_BUILD.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ZERO_CHECK.dir

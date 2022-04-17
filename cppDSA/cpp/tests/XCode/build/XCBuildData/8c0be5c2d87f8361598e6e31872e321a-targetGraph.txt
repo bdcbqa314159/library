@@ -1,0 +1,61 @@
+Target dependency graph (21 targets)
+ZERO_CHECK in test, no dependencies
+test in test, depends on:
+ZERO_CHECK in test (explicit)
+in_out in test, depends on:
+ZERO_CHECK in test (explicit)
+hello in test, depends on:
+ZERO_CHECK in test (explicit)
+ifElse in test, depends on:
+ZERO_CHECK in test (explicit)
+ifElseIf in test, depends on:
+ZERO_CHECK in test (explicit)
+ifElseIf2 in test, depends on:
+ZERO_CHECK in test (explicit)
+switch in test, depends on:
+ZERO_CHECK in test (explicit)
+for in test, depends on:
+ZERO_CHECK in test (explicit)
+while in test, depends on:
+ZERO_CHECK in test (explicit)
+doWhile in test, depends on:
+ZERO_CHECK in test (explicit)
+cards in test, depends on:
+ZERO_CHECK in test (explicit)
+animal in test, depends on:
+ZERO_CHECK in test (explicit)
+template in test, depends on:
+ZERO_CHECK in test (explicit)
+classTemplate in test, depends on:
+ZERO_CHECK in test (explicit)
+array in test, depends on:
+ZERO_CHECK in test (explicit)
+arrayAsPointer in test, depends on:
+ZERO_CHECK in test (explicit)
+list in test, depends on:
+ZERO_CHECK in test (explicit)
+printNode in test, depends on:
+ZERO_CHECK in test (explicit)
+linkedList in test, depends on:
+ZERO_CHECK in test (explicit)
+ALL_BUILD in test, depends on:
+test in test (explicit)
+in_out in test (explicit)
+hello in test (explicit)
+ifElse in test (explicit)
+ifElseIf in test (explicit)
+ifElseIf2 in test (explicit)
+switch in test (explicit)
+for in test (explicit)
+while in test (explicit)
+doWhile in test (explicit)
+cards in test (explicit)
+animal in test (explicit)
+template in test (explicit)
+classTemplate in test (explicit)
+array in test (explicit)
+arrayAsPointer in test (explicit)
+list in test (explicit)
+printNode in test (explicit)
+linkedList in test (explicit)
+ZERO_CHECK in test (explicit)

@@ -198,6 +198,54 @@ src/cards.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/cards.cpp.s
 .PHONY : src/cards.cpp.s
 
+src/list.o: src/list.cpp.o
+.PHONY : src/list.o
+
+# target to build an object file
+src/list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/list.cpp.o
+.PHONY : src/list.cpp.o
+
+src/list.i: src/list.cpp.i
+.PHONY : src/list.i
+
+# target to preprocess a source file
+src/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/list.cpp.i
+.PHONY : src/list.cpp.i
+
+src/list.s: src/list.cpp.s
+.PHONY : src/list.s
+
+# target to generate assembly for a file
+src/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/list.cpp.s
+.PHONY : src/list.cpp.s
+
+src/node.o: src/node.cpp.o
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/node.cpp.o
+.PHONY : src/node.cpp.o
+
+src/node.i: src/node.cpp.i
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppDSA.dir/build.make CMakeFiles/cppDSA.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
+
 src/random.o: src/random.cpp.o
 .PHONY : src/random.o
 
@@ -262,6 +310,12 @@ help:
 	@echo "... src/cards.o"
 	@echo "... src/cards.i"
 	@echo "... src/cards.s"
+	@echo "... src/list.o"
+	@echo "... src/list.i"
+	@echo "... src/list.s"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
 	@echo "... src/random.o"
 	@echo "... src/random.i"
 	@echo "... src/random.s"

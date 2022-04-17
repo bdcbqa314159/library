@@ -5,5 +5,9 @@
 #include "cppDSA_bits/random.hpp"
 #include "cppDSA_bits/cards.hpp"
 #include "cppDSA_bits/animal.hpp"
+#include "cppDSA_bits/list.hpp"
+#include "cppDSA_bits/node.hpp"
+#include "cppDSA_bits/linkedList.hpp"
+#include "cppDSA_bits/doublyLinkedList.hpp"
 
 #endif

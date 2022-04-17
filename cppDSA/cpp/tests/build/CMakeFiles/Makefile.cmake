@@ -61,4 +61,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/animal.dir/DependInfo.cmake"
   "CMakeFiles/template.dir/DependInfo.cmake"
   "CMakeFiles/classTemplate.dir/DependInfo.cmake"
+  "CMakeFiles/array.dir/DependInfo.cmake"
+  "CMakeFiles/arrayAsPointer.dir/DependInfo.cmake"
+  "CMakeFiles/list.dir/DependInfo.cmake"
+  "CMakeFiles/printNode.dir/DependInfo.cmake"
+  "CMakeFiles/linkedList.dir/DependInfo.cmake"
+  "CMakeFiles/doublyLinkedList.dir/DependInfo.cmake"
   )

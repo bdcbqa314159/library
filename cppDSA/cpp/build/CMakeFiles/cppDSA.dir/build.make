@@ -111,11 +111,41 @@ CMakeFiles/cppDSA.dir/src/cards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppDSA.dir/src/cards.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp -o CMakeFiles/cppDSA.dir/src/cards.cpp.s
 
+CMakeFiles/cppDSA.dir/src/list.cpp.o: CMakeFiles/cppDSA.dir/flags.make
+CMakeFiles/cppDSA.dir/src/list.cpp.o: ../src/list.cpp
+CMakeFiles/cppDSA.dir/src/list.cpp.o: CMakeFiles/cppDSA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cppDSA.dir/src/list.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppDSA.dir/src/list.cpp.o -MF CMakeFiles/cppDSA.dir/src/list.cpp.o.d -o CMakeFiles/cppDSA.dir/src/list.cpp.o -c /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp
+
+CMakeFiles/cppDSA.dir/src/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppDSA.dir/src/list.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp > CMakeFiles/cppDSA.dir/src/list.cpp.i
+
+CMakeFiles/cppDSA.dir/src/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppDSA.dir/src/list.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp -o CMakeFiles/cppDSA.dir/src/list.cpp.s
+
+CMakeFiles/cppDSA.dir/src/node.cpp.o: CMakeFiles/cppDSA.dir/flags.make
+CMakeFiles/cppDSA.dir/src/node.cpp.o: ../src/node.cpp
+CMakeFiles/cppDSA.dir/src/node.cpp.o: CMakeFiles/cppDSA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppDSA.dir/src/node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppDSA.dir/src/node.cpp.o -MF CMakeFiles/cppDSA.dir/src/node.cpp.o.d -o CMakeFiles/cppDSA.dir/src/node.cpp.o -c /Users/bernardocohen/repos/library/cppDSA/cpp/src/node.cpp
+
+CMakeFiles/cppDSA.dir/src/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppDSA.dir/src/node.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/library/cppDSA/cpp/src/node.cpp > CMakeFiles/cppDSA.dir/src/node.cpp.i
+
+CMakeFiles/cppDSA.dir/src/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppDSA.dir/src/node.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/library/cppDSA/cpp/src/node.cpp -o CMakeFiles/cppDSA.dir/src/node.cpp.s
+
 # Object files for target cppDSA
 cppDSA_OBJECTS = \
 "CMakeFiles/cppDSA.dir/src/test.cpp.o" \
 "CMakeFiles/cppDSA.dir/src/random.cpp.o" \
-"CMakeFiles/cppDSA.dir/src/cards.cpp.o"
+"CMakeFiles/cppDSA.dir/src/cards.cpp.o" \
+"CMakeFiles/cppDSA.dir/src/list.cpp.o" \
+"CMakeFiles/cppDSA.dir/src/node.cpp.o"
 
 # External object files for target cppDSA
 cppDSA_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ cppDSA_EXTERNAL_OBJECTS =
 libcppDSA.dylib: CMakeFiles/cppDSA.dir/src/test.cpp.o
 libcppDSA.dylib: CMakeFiles/cppDSA.dir/src/random.cpp.o
 libcppDSA.dylib: CMakeFiles/cppDSA.dir/src/cards.cpp.o
+libcppDSA.dylib: CMakeFiles/cppDSA.dir/src/list.cpp.o
+libcppDSA.dylib: CMakeFiles/cppDSA.dir/src/node.cpp.o
 libcppDSA.dylib: CMakeFiles/cppDSA.dir/build.make
 libcppDSA.dylib: CMakeFiles/cppDSA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcppDSA.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/library/cppDSA/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libcppDSA.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppDSA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
