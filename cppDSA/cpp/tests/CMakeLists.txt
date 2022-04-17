@@ -34,6 +34,7 @@ add_executable(list src/list.cpp)
 add_executable(printNode src/printNode.cpp)
 add_executable(linkedList src/linkedList.cpp)
 add_executable(doublyLinkedList src/doublyLinkedList.cpp)
+add_executable(stl src/stl.cpp)
 
 target_link_libraries(test PUBLIC ${CPPDSA_LIB})
 target_link_libraries(for PUBLIC ${CPPDSA_LIB})
