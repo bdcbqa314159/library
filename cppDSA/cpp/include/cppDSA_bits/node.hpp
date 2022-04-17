@@ -55,3 +55,17 @@ void PrintNode(Node<T> *node)
 }
 
 #endif
+
+// This was when a node.cpp was needed, not anymore.
+//  #include "../include/cppDSA_bits/node.hpp"
+//  #include <iostream>
+
+// void PrintNode(Node *node)
+// {
+//     while (node)
+//     {
+//         std::cout << node->Value << " -> ";
+//         node = node->Next;
+//     }
+//     std::cout << "NULL" << std::endl;
+// }

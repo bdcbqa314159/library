@@ -9,5 +9,8 @@
 #include "cppDSA_bits/node.hpp"
 #include "cppDSA_bits/linkedList.hpp"
 #include "cppDSA_bits/doublyLinkedList.hpp"
+#include "cppDSA_bits/stack.hpp"
+#include "cppDSA_bits/queue.hpp"
+#include "cppDSA_bits/deque.hpp"
 
 #endif
