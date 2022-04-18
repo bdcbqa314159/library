@@ -17,5 +17,12 @@
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/list.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/printNode.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/linkedList.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/doublyLinkedList.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/stl.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/stack.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/validParentheses.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/queue.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/deque.dir
+/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/sorting.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ALL_BUILD.dir
 /Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/CMakeFiles/ZERO_CHECK.dir

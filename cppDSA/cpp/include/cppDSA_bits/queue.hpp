@@ -29,6 +29,7 @@ template <typename T>
 Queue<T>::~Queue()
 {
     delete front;
+    front = nullptr;
 }
 
 template <typename T>

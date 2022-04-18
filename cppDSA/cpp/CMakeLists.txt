@@ -29,11 +29,13 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/stack.hpp
     ${PROJECT_INCLUDE_DIR}/queue.hpp
     ${PROJECT_INCLUDE_DIR}/deque.hpp
+    ${PROJECT_INCLUDE_DIR}/sorting.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp
     ${PROJECT_SOURCE_DIR}/cards.cpp
     ${PROJECT_SOURCE_DIR}/list.cpp
+    ${PROJECT_SOURCE_DIR}/sorting.cpp
     
 )
 

@@ -1,0 +1,139 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131b370b71e298b64122e72b9cba27bdb5d"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513103bcde7e86d13dd0eb4170aba894e5c6"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131aab2917e26b451aad221ffc45fe35733"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151314a4f0710282362d6434dcfecbffe01f9"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513184eeb40b3992e87ad86c317374a60fdb"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151314e9406a3a254a958aa81fdd68b518228"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513167eef0397b60084e7cee8eb324ef66b6"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513166277b0ae71a1691437b358cbaac6ac4"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151316c03e20524dd946bb4b09a72f90d01cc"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131e457dec53866c2db1baef6b1776b6de4"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131fdafaf815b69f75619ae67a66a1b35f6"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131a65670e88e0cecf2ed87efd4db99611f"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151313c728c6115a09bc6b6ba310d70becc3d"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151311daed9877c580445cfb2309c4cf4f0ce"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131ddf4b2e45f84e0143bdf5109cef75a95"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151315ba963f36ead26353811e0097af31ebb"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513139c5d05dc4003a427cc1d1adb2f6f6f8"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151310df0a2a2e0b25a83065f47a90e93e71a"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513195cac0c04cf9f58ca4d972e114fefa6a"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131a0118f4b0aa7104b88a2d016b8d264c2"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131405acb425042cfc5de0fc49a3348e489"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513152e5beb17b8e10be173e86caa21c40e5"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151310af5efe39e9cbb67d071c8c9eed3ec33"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b0151313be53e112e0f03b2c6fdeb1f7175b4ca"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b01513196128c6883ad6cf245d8d5116d8a205f"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131eeb0fcad0415c7c342cf9f6a67760437"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131ccb9d8430e760521faf4df321764677b"
+    },
+    {
+      "guid" : "72789673d79dae0c3bbc7d197b015131608ee24ff904b60336ab2557b4b82781"
+    }
+  ],
+  "containerPath" : "/Users/bernardocohen/repos/library/cppDSA/cpp/tests/XCode/test.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-agqikwrqhlqiuybdwwanxtmetsvk/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-agqikwrqhlqiuybdwwanxtmetsvk/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

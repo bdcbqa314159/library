@@ -12,5 +12,6 @@
 #include "cppDSA_bits/stack.hpp"
 #include "cppDSA_bits/queue.hpp"
 #include "cppDSA_bits/deque.hpp"
+#include "cppDSA_bits/sorting.hpp"
 
 #endif
