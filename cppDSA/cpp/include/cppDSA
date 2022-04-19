@@ -13,5 +13,7 @@
 #include "cppDSA_bits/queue.hpp"
 #include "cppDSA_bits/deque.hpp"
 #include "cppDSA_bits/sorting.hpp"
+#include "cppDSA_bits/searching.hpp"
+#include "cppDSA_bits/strings.hpp"
 
 #endif
