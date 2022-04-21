@@ -34,6 +34,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/strings.hpp
     ${PROJECT_INCLUDE_DIR}/treeNode.hpp
     ${PROJECT_INCLUDE_DIR}/trees.hpp
+    ${PROJECT_INCLUDE_DIR}/hashTables.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp
@@ -44,6 +45,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/strings.cpp
     ${PROJECT_SOURCE_DIR}/treeNode.cpp
     ${PROJECT_SOURCE_DIR}/trees.cpp
+    ${PROJECT_SOURCE_DIR}/hashTables.cpp
     
 )
 

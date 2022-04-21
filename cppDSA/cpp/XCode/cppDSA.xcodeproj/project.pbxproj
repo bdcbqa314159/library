@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		BEE917925D0641608B286C32 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 38B4F3D98383476D8A7925F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = B3375F97448140BE97219D73 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				459915F168814BE83B7E053D /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,25 +20,25 @@
 		};
 		CD8D9E55D5224307B45E052F /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B1DA03AB150B43B3BA80B51B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = BBE355E114CD4CB392C36A48 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				AA9DBE8A2C89453BA0E2B77D /* PBXTargetDependency */,
+				10188672D731497B94005A6D /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		F1BC1D4CF777479881817C74 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = EC0C24F6A2C94C908E64BDEF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 65930A04EA344B86805AC779 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				B8EFF0638168BF77385C05DF /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A5456F2E52184B9EB020BE77 /* PBXTargetDependency */,
-				86FA86E73ABD4BF3A125FE3F /* PBXTargetDependency */,
+				652794FEE1614A98B30AA42B /* PBXTargetDependency */,
+				3100C70AB8514DF0A9D95F66 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -46,129 +46,133 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		079409ABF1B84927A92D664B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */ = {isa = PBXBuildFile; fileRef = F0CD4B57CEA44A9F9A361EFF /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */; };
-		07D1918C38C74F32B3CC4AB4 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */ = {isa = PBXBuildFile; fileRef = 7A4D64E1B50E495386380619 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */; };
-		084F7ACAAB1D426ABCB418ED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */ = {isa = PBXBuildFile; fileRef = D86D94D88F674423BC01BA18 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */; };
-		0FC48C3D719B4916B650CD3B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */ = {isa = PBXBuildFile; fileRef = FE66BE92F2DD48ECA7FF446F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */; };
-		14947D08B51942249967DC95 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */ = {isa = PBXBuildFile; fileRef = BC9F6A3FB7294C928058320B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */; };
-		257CB814A05B47DDAC2A436C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */ = {isa = PBXBuildFile; fileRef = 0BFBF59E29EF459DBFA61AA6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */; };
-		38E6D15B983B4A578FD0940C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */ = {isa = PBXBuildFile; fileRef = 1884743666094945B550DE51 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */; };
-		5002B0233EAB40A08D853EBF /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */ = {isa = PBXBuildFile; fileRef = DDB04136FA4940FBA7CA646B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */; };
-		5D0CB7AA9431475BA2D09B45 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */ = {isa = PBXBuildFile; fileRef = EEBC0CF34F1245AFBDED38DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */; };
-		6FA1D99D0E3C4E4FB262771C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */ = {isa = PBXBuildFile; fileRef = B8662F491685407F8E678FE7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */; };
-		739F0866017245C8B74CCC24 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */ = {isa = PBXBuildFile; fileRef = 48ED03D9662642F284D6436C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */; };
-		7DB25EAF1DC04FB6A9965C67 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */ = {isa = PBXBuildFile; fileRef = 7E94F55593DB413E874DCEAE /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */; };
-		80E02E5F7D23422E8368201E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */ = {isa = PBXBuildFile; fileRef = 62EBA12E3B774FAA970919B3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */; };
-		8E9A22BAE8854F57856FC9DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */ = {isa = PBXBuildFile; fileRef = 34108333CFD94C51912636C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */; };
-		8FC3E8B0BA0B48C2A5E7E40B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */ = {isa = PBXBuildFile; fileRef = 043F9DAF175B47B484CBE2C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */; };
-		9124BC34C0584BE7AB3B6EA8 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */ = {isa = PBXBuildFile; fileRef = 74C8DF9B93CF4D698F3087FA /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */; };
-		9A095E327A554D3A801CC9FC /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */ = {isa = PBXBuildFile; fileRef = A2D9269992384A76AAF6F581 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */; };
-		A1A32D10CD664726A1BF2F15 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */ = {isa = PBXBuildFile; fileRef = B9A32E525B6640D186A1E32E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */; };
-		AB7EA9104E524A1DA855E2D1 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */ = {isa = PBXBuildFile; fileRef = 6B6EE53CA4C54D048F674713 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */; };
-		AE5B309F6BA0451584CDAFED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */ = {isa = PBXBuildFile; fileRef = 669C6EEE3816414CB4F4697A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */; };
-		B6E5ADC3BF354A0D86647F5C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */ = {isa = PBXBuildFile; fileRef = BD04825556384262AF4662BD /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */; };
-		B82E3290CCEB42B6864BEB1A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */ = {isa = PBXBuildFile; fileRef = 0DC974A8314E4BFA8F198BD3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */; };
-		C6AF30D802054B9D81A7BF8E /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6BF22C71A59943C388074D8C /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */; };
-		E43860B7A4E644BB9AA2DEF9 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */ = {isa = PBXBuildFile; fileRef = 88D3D5DB35AB4B8295972FA1 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */; };
-		EA9C964264824466974ECCC9 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */ = {isa = PBXBuildFile; fileRef = 9C0080E06DDB4C58AC3C8B34 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */; };
-		FB60B3B1ABF14FCC84CBB178 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */ = {isa = PBXBuildFile; fileRef = C94A480596154987B8D887CB /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */; };
+		0003841554ED4EDE83539D5F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */ = {isa = PBXBuildFile; fileRef = 215A126586704F839A3C31E7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */; };
+		00D16B7BB3C245C8B1DB02E5 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */ = {isa = PBXBuildFile; fileRef = 9EBB6E295835437EB85D0AB6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */; };
+		0277EB7839154ABCA40FF63A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */ = {isa = PBXBuildFile; fileRef = 0E82B70A0ED64F7082AD9387 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */; };
+		08FBF06BF3454B43AF91935C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */ = {isa = PBXBuildFile; fileRef = E24F60AD31094A4E8758E56A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */; };
+		0A6CE252CABE4E9F95158E37 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/hashTables.cpp */ = {isa = PBXBuildFile; fileRef = 5AB7E56D33F042DAAB85E960 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/hashTables.cpp */; };
+		14ECFA99983E4BCBBF8C5E7F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */ = {isa = PBXBuildFile; fileRef = 7207BB625D7D4563938B52B8 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */; };
+		1CF3044CCBAB4C1CA4072C8A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/hashTables.hpp */ = {isa = PBXBuildFile; fileRef = ACF71FB613E7483F927CCA1F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/hashTables.hpp */; };
+		20D1C04FF00D472796F59514 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */ = {isa = PBXBuildFile; fileRef = 77B69ECFC9374CE58E3D88ED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */; };
+		2C757F2DBC04437D8CA20183 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */ = {isa = PBXBuildFile; fileRef = C260F92C4A8140E898FDA593 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */; };
+		2F8A0A38B93346AAB56C0C90 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */ = {isa = PBXBuildFile; fileRef = 51339C1B46B14263B62632A2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */; };
+		3159F3BA0F7341378BA1C723 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */ = {isa = PBXBuildFile; fileRef = D6C3D177CFD4455FBECCC101 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */; };
+		329EC2EBBBA34CE38FBB576A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */ = {isa = PBXBuildFile; fileRef = 1BE0E200C16B46568E8AF984 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */; };
+		427AB4F9FAFC4A03AF607BBC /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */ = {isa = PBXBuildFile; fileRef = 5017B8B7DC9B4F67A86953DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */; };
+		491AB1BD05744BE8BC49F35B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */ = {isa = PBXBuildFile; fileRef = 1C3F3C71F14647008FB3DB04 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */; };
+		7F27A31C192F4C56BD0E8E81 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */ = {isa = PBXBuildFile; fileRef = DEB4E3AA7FAE4A81AA1294A0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */; };
+		7F3E84F7B9244A99947A286D /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */ = {isa = PBXBuildFile; fileRef = D3973A03E572441A874C5158 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */; };
+		8969D9D90AA14E3393FA259B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */ = {isa = PBXBuildFile; fileRef = 4EFEB3CFCBA84C2A99A4C57F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */; };
+		99F098E3664E41E68EB037A7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */ = {isa = PBXBuildFile; fileRef = AC25ABF5F70D4464A0D7D958 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */; };
+		9DAB4E7AF08B460DA9E5931C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */ = {isa = PBXBuildFile; fileRef = 71A1E8DB20694750A7D3CF3C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */; };
+		B85A9E241CCB44C6A7393F87 /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 16DEE3A6340B4312AF2228FB /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */; };
+		CC3830BA23504DEE8C08DD9C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */ = {isa = PBXBuildFile; fileRef = 0F1D563F778246B8867078B2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */; };
+		CD3E2CE74D0740B0B39F022A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */ = {isa = PBXBuildFile; fileRef = 316DF55952CD45C8B7385466 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */; };
+		D1031D89897C466F89CE8D64 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */ = {isa = PBXBuildFile; fileRef = E6FA0237E2E046D5A08A521D /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */; };
+		E1CE03CFD2494CAD859771EE /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */ = {isa = PBXBuildFile; fileRef = 87345B4071444B05A1107AE0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */; };
+		E8273D3465FF4E60930AA5BB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */ = {isa = PBXBuildFile; fileRef = A0A92B2C04AB422AB04CE618 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */; };
+		EE5456E477064FADB6ACE855 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */ = {isa = PBXBuildFile; fileRef = 4C9AE81D991646CE9800967F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */; };
+		F0053B259A134D53862DB355 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */ = {isa = PBXBuildFile; fileRef = 28E22598905843E19F25564A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */; };
+		FC09793CAA4D4DB1B667C7AA /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */ = {isa = PBXBuildFile; fileRef = 866B385E3DB24B499C823C3E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3782D9498FFC40559770C89D /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		BF7D1DE868C64DCAB1C21AF7 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		DDE8CD23FDEC4A9A8F49CFEA /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		F0F7D798C91C4B5BAEF74CE0 /* Debug */ = {
+		2C03DF39BAF7434FBEDD764E /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		A7C29ECD846C4180A8522C1D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ABD3CCB8DF754E9FBDC58186 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F426AB4CE16C480C81EA8B23 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		2997B84216A7480097D0961C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26DC71FB46D44BFD8635B03B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEE917925D0641608B286C32;
-			remoteInfo = ZERO_CHECK;
-		};
-		58E07226520942FEB53913D0 /* PBXContainerItemProxy */ = {
+		10880E81C6A0475683418308 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26DC71FB46D44BFD8635B03B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BC1D4CF777479881817C74;
 			remoteInfo = ALL_BUILD;
 		};
-		B014FAAD1B39495E85A73232 /* PBXContainerItemProxy */ = {
+		712DD7825D504635A3233D9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26DC71FB46D44BFD8635B03B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BEE917925D0641608B286C32;
 			remoteInfo = ZERO_CHECK;
 		};
-		DEA3F0F3AAFC45DD85D1FE4C /* PBXContainerItemProxy */ = {
+		DA422ECE2D19496289ADFB53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26DC71FB46D44BFD8635B03B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B82B80C6234D4C9C8BA639A9;
 			remoteInfo = cppDSA;
 		};
+		FB5BDCC7E3D048EC8B9CB839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DC71FB46D44BFD8635B03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE917925D0641608B286C32;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043F9DAF175B47B484CBE2C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = linkedList.hpp; path = include/cppDSA_bits/linkedList.hpp; sourceTree = SOURCE_ROOT; };
-		0BFBF59E29EF459DBFA61AA6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stack.hpp; path = include/cppDSA_bits/stack.hpp; sourceTree = SOURCE_ROOT; };
-		0DC974A8314E4BFA8F198BD3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sorting.hpp; path = include/cppDSA_bits/sorting.hpp; sourceTree = SOURCE_ROOT; };
-		1884743666094945B550DE51 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = doublyLinkedList.hpp; path = include/cppDSA_bits/doublyLinkedList.hpp; sourceTree = SOURCE_ROOT; };
-		34108333CFD94C51912636C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deque.hpp; path = include/cppDSA_bits/deque.hpp; sourceTree = SOURCE_ROOT; };
-		46694196E5CA4182A7995252 /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		48ED03D9662642F284D6436C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = treeNode.cpp; path = src/treeNode.cpp; sourceTree = SOURCE_ROOT; };
-		62EBA12E3B774FAA970919B3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = treeNode.hpp; path = include/cppDSA_bits/treeNode.hpp; sourceTree = SOURCE_ROOT; };
-		669C6EEE3816414CB4F4697A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = searching.cpp; path = src/searching.cpp; sourceTree = SOURCE_ROOT; };
-		6B6EE53CA4C54D048F674713 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = queue.hpp; path = include/cppDSA_bits/queue.hpp; sourceTree = SOURCE_ROOT; };
-		6BF22C71A59943C388074D8C /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		74C8DF9B93CF4D698F3087FA /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cards.cpp; path = src/cards.cpp; sourceTree = SOURCE_ROOT; };
-		7A4D64E1B50E495386380619 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = searching.hpp; path = include/cppDSA_bits/searching.hpp; sourceTree = SOURCE_ROOT; };
-		7E94F55593DB413E874DCEAE /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random.cpp; path = src/random.cpp; sourceTree = SOURCE_ROOT; };
-		88D3D5DB35AB4B8295972FA1 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = list.hpp; path = include/cppDSA_bits/list.hpp; sourceTree = SOURCE_ROOT; };
-		9C0080E06DDB4C58AC3C8B34 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = animal.hpp; path = include/cppDSA_bits/animal.hpp; sourceTree = SOURCE_ROOT; };
-		A2D9269992384A76AAF6F581 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test.hpp; path = include/cppDSA_bits/test.hpp; sourceTree = SOURCE_ROOT; };
-		B8662F491685407F8E678FE7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strings.cpp; path = src/strings.cpp; sourceTree = SOURCE_ROOT; };
-		B9A32E525B6640D186A1E32E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = trees.hpp; path = include/cppDSA_bits/trees.hpp; sourceTree = SOURCE_ROOT; };
-		BC9F6A3FB7294C928058320B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cards.hpp; path = include/cppDSA_bits/cards.hpp; sourceTree = SOURCE_ROOT; };
-		BD04825556384262AF4662BD /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = node.hpp; path = include/cppDSA_bits/node.hpp; sourceTree = SOURCE_ROOT; };
-		C466B19BAD9043078472F321 /* cppDSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcppDSA.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		C94A480596154987B8D887CB /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sorting.cpp; path = src/sorting.cpp; sourceTree = SOURCE_ROOT; };
-		D86D94D88F674423BC01BA18 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = src/test.cpp; sourceTree = SOURCE_ROOT; };
-		DDB04136FA4940FBA7CA646B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = trees.cpp; path = src/trees.cpp; sourceTree = SOURCE_ROOT; };
-		EEBC0CF34F1245AFBDED38DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = strings.hpp; path = include/cppDSA_bits/strings.hpp; sourceTree = SOURCE_ROOT; };
-		F0CD4B57CEA44A9F9A361EFF /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random.hpp; path = include/cppDSA_bits/random.hpp; sourceTree = SOURCE_ROOT; };
-		FE66BE92F2DD48ECA7FF446F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = list.cpp; path = src/list.cpp; sourceTree = SOURCE_ROOT; };
+		0E82B70A0ED64F7082AD9387 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sorting.cpp; path = src/sorting.cpp; sourceTree = SOURCE_ROOT; };
+		0F1D563F778246B8867078B2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strings.cpp; path = src/strings.cpp; sourceTree = SOURCE_ROOT; };
+		16DEE3A6340B4312AF2228FB /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1BE0E200C16B46568E8AF984 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = trees.cpp; path = src/trees.cpp; sourceTree = SOURCE_ROOT; };
+		1C3F3C71F14647008FB3DB04 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cards.cpp; path = src/cards.cpp; sourceTree = SOURCE_ROOT; };
+		215A126586704F839A3C31E7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = treeNode.cpp; path = src/treeNode.cpp; sourceTree = SOURCE_ROOT; };
+		28E22598905843E19F25564A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cards.hpp; path = include/cppDSA_bits/cards.hpp; sourceTree = SOURCE_ROOT; };
+		316DF55952CD45C8B7385466 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = treeNode.hpp; path = include/cppDSA_bits/treeNode.hpp; sourceTree = SOURCE_ROOT; };
+		4C9AE81D991646CE9800967F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = node.hpp; path = include/cppDSA_bits/node.hpp; sourceTree = SOURCE_ROOT; };
+		4EFEB3CFCBA84C2A99A4C57F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = list.hpp; path = include/cppDSA_bits/list.hpp; sourceTree = SOURCE_ROOT; };
+		5017B8B7DC9B4F67A86953DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = trees.hpp; path = include/cppDSA_bits/trees.hpp; sourceTree = SOURCE_ROOT; };
+		51339C1B46B14263B62632A2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sorting.hpp; path = include/cppDSA_bits/sorting.hpp; sourceTree = SOURCE_ROOT; };
+		5AB7E56D33F042DAAB85E960 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/hashTables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hashTables.cpp; path = src/hashTables.cpp; sourceTree = SOURCE_ROOT; };
+		6051868732E44E9EB048CB46 /* cppDSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcppDSA.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A1E8DB20694750A7D3CF3C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = doublyLinkedList.hpp; path = include/cppDSA_bits/doublyLinkedList.hpp; sourceTree = SOURCE_ROOT; };
+		7207BB625D7D4563938B52B8 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = searching.cpp; path = src/searching.cpp; sourceTree = SOURCE_ROOT; };
+		77B69ECFC9374CE58E3D88ED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random.cpp; path = src/random.cpp; sourceTree = SOURCE_ROOT; };
+		866B385E3DB24B499C823C3E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stack.hpp; path = include/cppDSA_bits/stack.hpp; sourceTree = SOURCE_ROOT; };
+		87345B4071444B05A1107AE0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = searching.hpp; path = include/cppDSA_bits/searching.hpp; sourceTree = SOURCE_ROOT; };
+		9EBB6E295835437EB85D0AB6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = list.cpp; path = src/list.cpp; sourceTree = SOURCE_ROOT; };
+		A0A92B2C04AB422AB04CE618 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random.hpp; path = include/cppDSA_bits/random.hpp; sourceTree = SOURCE_ROOT; };
+		AA96655D79B240808871F7CC /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC25ABF5F70D4464A0D7D958 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = src/test.cpp; sourceTree = SOURCE_ROOT; };
+		ACF71FB613E7483F927CCA1F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/hashTables.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hashTables.hpp; path = include/cppDSA_bits/hashTables.hpp; sourceTree = SOURCE_ROOT; };
+		C260F92C4A8140E898FDA593 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = strings.hpp; path = include/cppDSA_bits/strings.hpp; sourceTree = SOURCE_ROOT; };
+		D3973A03E572441A874C5158 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = linkedList.hpp; path = include/cppDSA_bits/linkedList.hpp; sourceTree = SOURCE_ROOT; };
+		D6C3D177CFD4455FBECCC101 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deque.hpp; path = include/cppDSA_bits/deque.hpp; sourceTree = SOURCE_ROOT; };
+		DEB4E3AA7FAE4A81AA1294A0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = queue.hpp; path = include/cppDSA_bits/queue.hpp; sourceTree = SOURCE_ROOT; };
+		E24F60AD31094A4E8758E56A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test.hpp; path = include/cppDSA_bits/test.hpp; sourceTree = SOURCE_ROOT; };
+		E6FA0237E2E046D5A08A521D /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = animal.hpp; path = include/cppDSA_bits/animal.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A83E4FC45000411FA7928781 /* Frameworks */ = {
+		62308F37E886441BBE69110C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,102 +182,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CA9119066EB41D3AA1F0A53 /* cppDSA */ = {
+		0FDFB4EDAF3F41F7A6EF9FB5 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				DC8781D034B94C6EB3838B06 /* include */,
-				8810D7C2A0D8418C9FBE2926 /* src */,
-				6BF22C71A59943C388074D8C /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */,
 			);
-			name = cppDSA;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		22D4E19A82704329BEA517E3 /* Products */ = {
+		1F95919B713D40108AA96C6F /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				C466B19BAD9043078472F321 /* cppDSA */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		55497E93EF66486599E5E671 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				E2CC7F3FA9B147BBB79DEA4F /* CMake Rules */,
-				46694196E5CA4182A7995252 /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */,
+				0FDFB4EDAF3F41F7A6EF9FB5 /* CMake Rules */,
+				AA96655D79B240808871F7CC /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		8810D7C2A0D8418C9FBE2926 /* src */ = {
+		3C5CB353C67A4CDEA01AE614 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				74C8DF9B93CF4D698F3087FA /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */,
-				FE66BE92F2DD48ECA7FF446F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */,
-				7E94F55593DB413E874DCEAE /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */,
-				669C6EEE3816414CB4F4697A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */,
-				C94A480596154987B8D887CB /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */,
-				B8662F491685407F8E678FE7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */,
-				D86D94D88F674423BC01BA18 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */,
-				48ED03D9662642F284D6436C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */,
-				DDB04136FA4940FBA7CA646B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */,
+				4076FA2B742443AF90790A5F /* cppDSA_bits */,
 			);
-			name = src;
+			name = include;
 			sourceTree = "<group>";
 		};
-		88AB15C1316D4B97B4676B7E = {
+		4076FA2B742443AF90790A5F /* cppDSA_bits */ = {
 			isa = PBXGroup;
 			children = (
-				0CA9119066EB41D3AA1F0A53 /* cppDSA */,
-				55497E93EF66486599E5E671 /* ALL_BUILD */,
-				22D4E19A82704329BEA517E3 /* Products */,
-				A068E50436D64FEBAAF051EC /* Frameworks */,
+				E6FA0237E2E046D5A08A521D /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */,
+				28E22598905843E19F25564A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */,
+				D6C3D177CFD4455FBECCC101 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */,
+				71A1E8DB20694750A7D3CF3C /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */,
+				ACF71FB613E7483F927CCA1F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/hashTables.hpp */,
+				D3973A03E572441A874C5158 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */,
+				4EFEB3CFCBA84C2A99A4C57F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */,
+				4C9AE81D991646CE9800967F /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */,
+				DEB4E3AA7FAE4A81AA1294A0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */,
+				A0A92B2C04AB422AB04CE618 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */,
+				87345B4071444B05A1107AE0 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */,
+				51339C1B46B14263B62632A2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */,
+				866B385E3DB24B499C823C3E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */,
+				C260F92C4A8140E898FDA593 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */,
+				E24F60AD31094A4E8758E56A /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */,
+				316DF55952CD45C8B7385466 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */,
+				5017B8B7DC9B4F67A86953DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */,
+			);
+			name = cppDSA_bits;
+			sourceTree = "<group>";
+		};
+		519DC1C884244C2B904502B2 = {
+			isa = PBXGroup;
+			children = (
+				6E31B07D92ED4632920E03BC /* cppDSA */,
+				1F95919B713D40108AA96C6F /* ALL_BUILD */,
+				723C514CAEA545E1AEB66AAB /* Products */,
+				DD2F523ED1894A47B72C57D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A068E50436D64FEBAAF051EC /* Frameworks */ = {
+		6E31B07D92ED4632920E03BC /* cppDSA */ = {
+			isa = PBXGroup;
+			children = (
+				3C5CB353C67A4CDEA01AE614 /* include */,
+				FBAB445FD51B470B916CDB07 /* src */,
+				16DEE3A6340B4312AF2228FB /* /Users/bernardocohen/repos/library/cppDSA/cpp/CMakeLists.txt */,
+			);
+			name = cppDSA;
+			sourceTree = "<group>";
+		};
+		723C514CAEA545E1AEB66AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6051868732E44E9EB048CB46 /* cppDSA */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2F523ED1894A47B72C57D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD20F1A9DFE640E5A4B26BF5 /* cppDSA_bits */ = {
+		FBAB445FD51B470B916CDB07 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9C0080E06DDB4C58AC3C8B34 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/animal.hpp */,
-				BC9F6A3FB7294C928058320B /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/cards.hpp */,
-				34108333CFD94C51912636C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/deque.hpp */,
-				1884743666094945B550DE51 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/doublyLinkedList.hpp */,
-				043F9DAF175B47B484CBE2C2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/linkedList.hpp */,
-				88D3D5DB35AB4B8295972FA1 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/list.hpp */,
-				BD04825556384262AF4662BD /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/node.hpp */,
-				6B6EE53CA4C54D048F674713 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/queue.hpp */,
-				F0CD4B57CEA44A9F9A361EFF /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/random.hpp */,
-				7A4D64E1B50E495386380619 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/searching.hpp */,
-				0DC974A8314E4BFA8F198BD3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/sorting.hpp */,
-				0BFBF59E29EF459DBFA61AA6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/stack.hpp */,
-				EEBC0CF34F1245AFBDED38DB /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/strings.hpp */,
-				A2D9269992384A76AAF6F581 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/test.hpp */,
-				62EBA12E3B774FAA970919B3 /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/treeNode.hpp */,
-				B9A32E525B6640D186A1E32E /* /Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits/trees.hpp */,
+				1C3F3C71F14647008FB3DB04 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */,
+				5AB7E56D33F042DAAB85E960 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/hashTables.cpp */,
+				9EBB6E295835437EB85D0AB6 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */,
+				77B69ECFC9374CE58E3D88ED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */,
+				7207BB625D7D4563938B52B8 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */,
+				0E82B70A0ED64F7082AD9387 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */,
+				0F1D563F778246B8867078B2 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */,
+				AC25ABF5F70D4464A0D7D958 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */,
+				215A126586704F839A3C31E7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */,
+				1BE0E200C16B46568E8AF984 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */,
 			);
-			name = cppDSA_bits;
-			sourceTree = "<group>";
-		};
-		DC8781D034B94C6EB3838B06 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				BD20F1A9DFE640E5A4B26BF5 /* cppDSA_bits */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		E2CC7F3FA9B147BBB79DEA4F /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,20 +287,20 @@
 /* Begin PBXNativeTarget section */
 		B82B80C6234D4C9C8BA639A9 /* cppDSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C645BD057B64BDCB0E44D89 /* Build configuration list for PBXNativeTarget "cppDSA" */;
+			buildConfigurationList = 8FB277634CCB4340AB5ECEDD /* Build configuration list for PBXNativeTarget "cppDSA" */;
 			buildPhases = (
-				8CCF31A1A14B4D33950C7BD0 /* Sources */,
-				A83E4FC45000411FA7928781 /* Frameworks */,
+				FA77118B61DF49978C0D3096 /* Sources */,
+				62308F37E886441BBE69110C /* Frameworks */,
 				DAC46604BA5293C4166BE761 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D690DFF9218744EDBD73666E /* PBXTargetDependency */,
+				FE1790DF6BF5429B9DFDA251 /* PBXTargetDependency */,
 			);
 			name = cppDSA;
 			productName = cppDSA;
-			productReference = C466B19BAD9043078472F321 /* cppDSA */;
+			productReference = 6051868732E44E9EB048CB46 /* cppDSA */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -306,18 +312,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1330;
 			};
-			buildConfigurationList = 80FE55813DE3439FBE1560CE /* Build configuration list for PBXProject "cppDSA" */;
+			buildConfigurationList = ED38309E33144FF783C365CC /* Build configuration list for PBXProject "cppDSA" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F0F7D798C91C4B5BAEF74CE0 /* Debug */,
-				3782D9498FFC40559770C89D /* Release */,
-				DDE8CD23FDEC4A9A8F49CFEA /* MinSizeRel */,
-				BF7D1DE868C64DCAB1C21AF7 /* RelWithDebInfo */,
+				2C03DF39BAF7434FBEDD764E /* Debug */,
+				F426AB4CE16C480C81EA8B23 /* Release */,
+				ABD3CCB8DF754E9FBDC58186 /* MinSizeRel */,
+				A7C29ECD846C4180A8522C1D /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 88AB15C1316D4B97B4676B7E;
+			mainGroup = 519DC1C884244C2B904502B2;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -506,390 +512,50 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8CCF31A1A14B4D33950C7BD0 /* Sources */ = {
+		FA77118B61DF49978C0D3096 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9124BC34C0584BE7AB3B6EA8 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */,
-				0FC48C3D719B4916B650CD3B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */,
-				7DB25EAF1DC04FB6A9965C67 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */,
-				AE5B309F6BA0451584CDAFED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */,
-				FB60B3B1ABF14FCC84CBB178 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */,
-				6FA1D99D0E3C4E4FB262771C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */,
-				084F7ACAAB1D426ABCB418ED /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */,
-				739F0866017245C8B74CCC24 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */,
-				5002B0233EAB40A08D853EBF /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */,
+				491AB1BD05744BE8BC49F35B /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/cards.cpp */,
+				0A6CE252CABE4E9F95158E37 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/hashTables.cpp */,
+				00D16B7BB3C245C8B1DB02E5 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/list.cpp */,
+				20D1C04FF00D472796F59514 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/random.cpp */,
+				14ECFA99983E4BCBBF8C5E7F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/searching.cpp */,
+				0277EB7839154ABCA40FF63A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/sorting.cpp */,
+				CC3830BA23504DEE8C08DD9C /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/strings.cpp */,
+				99F098E3664E41E68EB037A7 /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/test.cpp */,
+				0003841554ED4EDE83539D5F /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/treeNode.cpp */,
+				329EC2EBBBA34CE38FBB576A /* /Users/bernardocohen/repos/library/cppDSA/cpp/src/trees.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		86FA86E73ABD4BF3A125FE3F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEE917925D0641608B286C32 /* ZERO_CHECK */;
-			targetProxy = 2997B84216A7480097D0961C /* PBXContainerItemProxy */;
-		};
-		A5456F2E52184B9EB020BE77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B82B80C6234D4C9C8BA639A9 /* cppDSA */;
-			targetProxy = DEA3F0F3AAFC45DD85D1FE4C /* PBXContainerItemProxy */;
-		};
-		AA9DBE8A2C89453BA0E2B77D /* PBXTargetDependency */ = {
+		10188672D731497B94005A6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F1BC1D4CF777479881817C74 /* ALL_BUILD */;
-			targetProxy = 58E07226520942FEB53913D0 /* PBXContainerItemProxy */;
+			targetProxy = 10880E81C6A0475683418308 /* PBXContainerItemProxy */;
 		};
-		D690DFF9218744EDBD73666E /* PBXTargetDependency */ = {
+		3100C70AB8514DF0A9D95F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82B80C6234D4C9C8BA639A9 /* cppDSA */;
+			targetProxy = DA422ECE2D19496289ADFB53 /* PBXContainerItemProxy */;
+		};
+		652794FEE1614A98B30AA42B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BEE917925D0641608B286C32 /* ZERO_CHECK */;
-			targetProxy = B014FAAD1B39495E85A73232 /* PBXContainerItemProxy */;
+			targetProxy = 712DD7825D504635A3233D9F /* PBXContainerItemProxy */;
+		};
+		FE1790DF6BF5429B9DFDA251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE917925D0641608B286C32 /* ZERO_CHECK */;
+			targetProxy = FB5BDCC7E3D048EC8B9CB839 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F35AD7A55834D2BB0992F50 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		253CCC27FC104B71B127BFB3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2F2B30B4CA574D9C86F62B9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
-			};
-			name = Debug;
-		};
-		3642E4AA06AA47878F0A15EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		397AEA3663E940048F6ADC48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		3FB1E0B3C8FE483AA0A25356 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		7EFC5FF3E82C47B3804AA9C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
-			};
-			name = Release;
-		};
-		8E37D97288E64CA5BF0EA0A4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppDSA;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		90138463C47D4A15BA6DCB85 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		AA425A6B0CC947F7A7961F28 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppDSA;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		ABDA9BAB1B6945CE8F232958 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		B21121F11CAF4520AF13CD15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppDSA;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B4253BA34A044C0CBF39C030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B64FDDFD80BD4C4A9CE740D9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
-			};
-			name = MinSizeRel;
-		};
-		C0BE379682014E2CB4AF9FB4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		C23509B120554C8790DAECC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		CFB3EF3A0A2E459ABF182F69 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		D25F7E06C7A1451F8D0D99CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E5423FA440144068B46F83A5 /* Debug */ = {
+		314767FCFF2948DDAA95EA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -916,7 +582,164 @@ fi
 			};
 			name = Debug;
 		};
-		F825D7570C694F8F855AAA06 /* Release */ = {
+		3D278C53BD944755B2E4E03A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		47E139675FE34412904F0BAA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
+			};
+			name = MinSizeRel;
+		};
+		4C349453F7A9483C85EDB23E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppDSA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		55292567965D46909D463853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
+			};
+			name = Debug;
+		};
+		5ADA4BF5E49749D4AD3AA729 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6113120BBCA74B5E99B34224 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75BA7840C65D4EA38200316B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		791A277B04584E85B82FA02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		89F2DC3783414BA3AE3172AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		945807DC70894342B7B58CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -936,60 +759,244 @@ fi
 			};
 			name = Release;
 		};
+		9D90B5C6ED5A4FDF82E650F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D943EEE7E354858A2589691 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E528E075093457EB1ACC308 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppDSA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7BAF1516FAF49F9A23F4D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AD0C2C4DFB174EC0BD249BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AFC7A03634224B20B8CCE245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppDSA_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppDSA/cpp/include/cppDSA_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppDSA;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E0B1952E48934116936202FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E282C64A654049D09E719AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode/build;
+			};
+			name = Release;
+		};
+		F61F59CDBA0247529ED4168A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppDSA/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38B4F3D98383476D8A7925F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		65930A04EA344B86805AC779 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3642E4AA06AA47878F0A15EC /* Debug */,
-				B4253BA34A044C0CBF39C030 /* Release */,
-				CFB3EF3A0A2E459ABF182F69 /* MinSizeRel */,
-				3FB1E0B3C8FE483AA0A25356 /* RelWithDebInfo */,
+				75BA7840C65D4EA38200316B /* Debug */,
+				945807DC70894342B7B58CD2 /* Release */,
+				5ADA4BF5E49749D4AD3AA729 /* MinSizeRel */,
+				9D943EEE7E354858A2589691 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		80FE55813DE3439FBE1560CE /* Build configuration list for PBXProject "cppDSA" */ = {
+		8FB277634CCB4340AB5ECEDD /* Build configuration list for PBXNativeTarget "cppDSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F2B30B4CA574D9C86F62B9F /* Debug */,
-				7EFC5FF3E82C47B3804AA9C5 /* Release */,
-				B64FDDFD80BD4C4A9CE740D9 /* MinSizeRel */,
-				ABDA9BAB1B6945CE8F232958 /* RelWithDebInfo */,
+				314767FCFF2948DDAA95EA1C /* Debug */,
+				AFC7A03634224B20B8CCE245 /* Release */,
+				4C349453F7A9483C85EDB23E /* MinSizeRel */,
+				9E528E075093457EB1ACC308 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8C645BD057B64BDCB0E44D89 /* Build configuration list for PBXNativeTarget "cppDSA" */ = {
+		B3375F97448140BE97219D73 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5423FA440144068B46F83A5 /* Debug */,
-				B21121F11CAF4520AF13CD15 /* Release */,
-				AA425A6B0CC947F7A7961F28 /* MinSizeRel */,
-				8E37D97288E64CA5BF0EA0A4 /* RelWithDebInfo */,
+				791A277B04584E85B82FA02C /* Debug */,
+				E0B1952E48934116936202FE /* Release */,
+				9D90B5C6ED5A4FDF82E650F6 /* MinSizeRel */,
+				89F2DC3783414BA3AE3172AF /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B1DA03AB150B43B3BA80B51B /* Build configuration list for PBXAggregateTarget "install" */ = {
+		BBE355E114CD4CB392C36A48 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C23509B120554C8790DAECC8 /* Debug */,
-				D25F7E06C7A1451F8D0D99CC /* Release */,
-				0F35AD7A55834D2BB0992F50 /* MinSizeRel */,
-				90138463C47D4A15BA6DCB85 /* RelWithDebInfo */,
+				A7BAF1516FAF49F9A23F4D16 /* Debug */,
+				AD0C2C4DFB174EC0BD249BE8 /* Release */,
+				F61F59CDBA0247529ED4168A /* MinSizeRel */,
+				6113120BBCA74B5E99B34224 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		EC0C24F6A2C94C908E64BDEF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		ED38309E33144FF783C365CC /* Build configuration list for PBXProject "cppDSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				397AEA3663E940048F6ADC48 /* Debug */,
-				F825D7570C694F8F855AAA06 /* Release */,
-				C0BE379682014E2CB4AF9FB4 /* MinSizeRel */,
-				253CCC27FC104B71B127BFB3 /* RelWithDebInfo */,
+				55292567965D46909D463853 /* Debug */,
+				E282C64A654049D09E719AFE /* Release */,
+				47E139675FE34412904F0BAA /* MinSizeRel */,
+				3D278C53BD944755B2E4E03A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
