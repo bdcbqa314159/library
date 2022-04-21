@@ -32,6 +32,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/sorting.hpp
     ${PROJECT_INCLUDE_DIR}/searching.hpp
     ${PROJECT_INCLUDE_DIR}/strings.hpp
+    ${PROJECT_INCLUDE_DIR}/treeNode.hpp
+    ${PROJECT_INCLUDE_DIR}/trees.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp
@@ -40,6 +42,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/sorting.cpp
     ${PROJECT_SOURCE_DIR}/searching.cpp
     ${PROJECT_SOURCE_DIR}/strings.cpp
+    ${PROJECT_SOURCE_DIR}/treeNode.cpp
+    ${PROJECT_SOURCE_DIR}/trees.cpp
     
 )
 

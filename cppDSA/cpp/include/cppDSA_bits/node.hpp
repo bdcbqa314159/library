@@ -54,12 +54,7 @@ void PrintNode(Node<T> *node)
     std::cout << "NULL" << std::endl;
 }
 
-#endif
-
-// This was when a node.cpp was needed, not anymore.
-//  #include "../include/cppDSA_bits/node.hpp"
-//  #include <iostream>
-
+// This was when a node.cpp was needed for the Node class, not anymore.
 // void PrintNode(Node *node)
 // {
 //     while (node)
@@ -69,3 +64,5 @@ void PrintNode(Node<T> *node)
 //     }
 //     std::cout << "NULL" << std::endl;
 // }
+
+#endif

@@ -11,4 +11,8 @@ dependencies: \
   /usr/local/include/cppDSA_bits/stack.hpp \
   /usr/local/include/cppDSA_bits/queue.hpp \
   /usr/local/include/cppDSA_bits/deque.hpp \
-  /usr/local/include/cppDSA_bits/sorting.hpp
+  /usr/local/include/cppDSA_bits/sorting.hpp \
+  /usr/local/include/cppDSA_bits/searching.hpp \
+  /usr/local/include/cppDSA_bits/strings.hpp \
+  /usr/local/include/cppDSA_bits/treeNode.hpp \
+  /usr/local/include/cppDSA_bits/trees.hpp
