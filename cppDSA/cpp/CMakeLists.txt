@@ -35,6 +35,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/treeNode.hpp
     ${PROJECT_INCLUDE_DIR}/trees.hpp
     ${PROJECT_INCLUDE_DIR}/hashTables.hpp
+    ${PROJECT_INCLUDE_DIR}/realLifeAlgorithms.hpp
+    ${PROJECT_INCLUDE_DIR}/minHeapNode.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/random.cpp
@@ -46,6 +48,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/treeNode.cpp
     ${PROJECT_SOURCE_DIR}/trees.cpp
     ${PROJECT_SOURCE_DIR}/hashTables.cpp
+    ${PROJECT_SOURCE_DIR}/realLifeAlgorithms.cpp
+    ${PROJECT_SOURCE_DIR}/minHeapNode.cpp
     
 )
 

@@ -18,5 +18,7 @@
 #include "cppDSA_bits/treeNode.hpp"
 #include "cppDSA_bits/trees.hpp"
 #include "cppDSA_bits/hashTables.hpp"
+#include "cppDSA_bits/realLifeAlgorithms.hpp"
+#include "cppDSA_bits/minHeapNode.hpp"
 
 #endif
