@@ -20,10 +20,12 @@ set(PROJECT_INCLUDE_DIR "include/cppTutorial2_bits") #update here
 set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/test.hpp
     ${PROJECT_INCLUDE_DIR}/recursion.hpp
+    ${PROJECT_INCLUDE_DIR}/search.hpp
     
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
+    ${PROJECT_SOURCE_DIR}/search.cpp
     
     
 )

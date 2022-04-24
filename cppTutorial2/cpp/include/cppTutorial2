@@ -3,5 +3,6 @@
 
 #include "cppTutorial2_bits/test.hpp"
 #include "cppTutorial2_bits/recursion.hpp"
+#include "cppTutorial2_bits/search.hpp"
 
 #endif
