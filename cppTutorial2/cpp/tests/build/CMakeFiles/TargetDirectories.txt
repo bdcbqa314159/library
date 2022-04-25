@@ -1,5 +1,0 @@
-/Users/bernardocohen/repos/library/cppTutorial2/cpp/tests/build/CMakeFiles/test.dir
-/Users/bernardocohen/repos/library/cppTutorial2/cpp/tests/build/CMakeFiles/recursion.dir
-/Users/bernardocohen/repos/library/cppTutorial2/cpp/tests/build/CMakeFiles/search.dir
-/Users/bernardocohen/repos/library/cppTutorial2/cpp/tests/build/CMakeFiles/edit_cache.dir
-/Users/bernardocohen/repos/library/cppTutorial2/cpp/tests/build/CMakeFiles/rebuild_cache.dir
