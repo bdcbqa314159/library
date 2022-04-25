@@ -27,6 +27,16 @@ add_executable(if src/if.cpp)
 add_executable(ifElse src/ifElse.cpp)
 add_executable(ifElseIfElse src/ifElseIfElse.cpp)
 add_executable(comparingFloats src/comparingFloats.cpp)
+add_executable(cppConditions src/cppConditions.cpp)
+add_executable(while src/while.cpp)
+add_executable(doWhile src/doWhile.cpp)
+add_executable(for src/for.cpp)
+add_executable(breakContinue src/breakContinue.cpp)
+add_executable(arrays src/arrays.cpp)
+add_executable(multiDimArrays src/multiDimArrays.cpp)
+add_executable(sizeofArrays src/sizeofArrays.cpp)
+add_executable(sizeofMultiDimArrays src/sizeofMultiDimArrays.cpp)
+add_executable(switch src/switch.cpp)
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 

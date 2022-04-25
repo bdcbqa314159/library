@@ -1,0 +1,6 @@
+/usr/local/lib/libcppTutorial2.dylib
+/usr/local/include/cppTutorial2
+/usr/local/include/cppTutorial2_bits/.DS_Store
+/usr/local/include/cppTutorial2_bits/search.hpp
+/usr/local/include/cppTutorial2_bits/test.hpp
+/usr/local/include/cppTutorial2_bits/recursion.hpp
