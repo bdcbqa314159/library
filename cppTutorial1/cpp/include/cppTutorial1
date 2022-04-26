@@ -2,5 +2,6 @@
 #define CPPTUTORIAL1_LIBRARY_H
 
 #include "cppTutorial1_bits/test.hpp"
+#include "cppTutorial1_bits/utils.hpp"
 
 #endif

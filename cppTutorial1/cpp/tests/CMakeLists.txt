@@ -38,5 +38,11 @@ add_executable(sizeofArrays src/sizeofArrays.cpp)
 add_executable(sizeofMultiDimArrays src/sizeofMultiDimArrays.cpp)
 add_executable(switch src/switch.cpp)
 
+add_executable(functions src/functions.cpp)
+add_executable(returnValue src/returnValue.cpp)
+add_executable(functionsParams src/functionsParams.cpp)
+add_executable(headersInclude src/headersInclude.cpp)
+
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
+target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
