@@ -18,6 +18,9 @@ add_executable(test src/test.cpp)
 add_executable(recursion src/recursion.cpp)
 add_executable(search src/search.cpp)
 
+add_executable(backtracking src/backtracking.cpp)
+
 target_link_libraries(test PUBLIC ${CPPTUTORIAL2_LIB}) #update here
 target_link_libraries(recursion PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(search PUBLIC ${CPPTUTORIAL2_LIB})
+target_link_libraries(backtracking PUBLIC ${CPPTUTORIAL2_LIB})
