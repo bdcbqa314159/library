@@ -3,5 +3,7 @@
 
 #include "cppTutorial1_bits/test.hpp"
 #include "cppTutorial1_bits/utils.hpp"
+#include "cppTutorial1_bits/cat.hpp"
+#include "cppTutorial1_bits/person.hpp"
 
 #endif

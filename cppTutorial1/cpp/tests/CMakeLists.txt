@@ -43,6 +43,11 @@ add_executable(returnValue src/returnValue.cpp)
 add_executable(functionsParams src/functionsParams.cpp)
 add_executable(headersInclude src/headersInclude.cpp)
 
+add_executable(classes src/classes.cpp)
+add_executable(stringStreams src/stringStreams.cpp)
+
+
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
 target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
+target_link_libraries(classes PUBLIC ${CPPTUTORIAL1_LIB})

@@ -20,10 +20,14 @@ set(PROJECT_INCLUDE_DIR "include/cppTutorial1_bits") #update here
 set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/test.hpp
     ${PROJECT_INCLUDE_DIR}/utils.hpp
+    ${PROJECT_INCLUDE_DIR}/cat.hpp
+    ${PROJECT_INCLUDE_DIR}/person.hpp
     
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/utils.cpp
+    ${PROJECT_SOURCE_DIR}/cat.cpp
+    ${PROJECT_SOURCE_DIR}/person.cpp
     
     
 )
