@@ -1,7 +1,0 @@
-/usr/local/lib/libcppTutorial1.dylib
-/usr/local/include/cppTutorial1
-/usr/local/include/cppTutorial1_bits/.DS_Store
-/usr/local/include/cppTutorial1_bits/person.hpp
-/usr/local/include/cppTutorial1_bits/cat.hpp
-/usr/local/include/cppTutorial1_bits/test.hpp
-/usr/local/include/cppTutorial1_bits/utils.hpp
