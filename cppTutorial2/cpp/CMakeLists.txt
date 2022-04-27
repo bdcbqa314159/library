@@ -22,12 +22,14 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/recursion.hpp
     ${PROJECT_INCLUDE_DIR}/search.hpp
     ${PROJECT_INCLUDE_DIR}/backtracking.hpp
+    ${PROJECT_INCLUDE_DIR}/dynamicProg.hpp
     
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
     ${PROJECT_SOURCE_DIR}/search.cpp
     ${PROJECT_SOURCE_DIR}/backtracking.cpp
+    ${PROJECT_SOURCE_DIR}/dynamicProg.cpp
     
     
 )
