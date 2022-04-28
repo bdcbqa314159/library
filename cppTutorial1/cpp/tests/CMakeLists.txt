@@ -46,6 +46,9 @@ add_executable(headersInclude src/headersInclude.cpp)
 add_executable(classes src/classes.cpp)
 add_executable(stringStreams src/stringStreams.cpp)
 
+add_executable(pointers src/pointers.cpp)
+add_executable(arithmetic src/arithmetic.cpp)
+
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
