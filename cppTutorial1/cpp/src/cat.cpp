@@ -41,3 +41,21 @@ void Cat::makeSad()
 {
     happy = false;
 }
+
+namespace bdcb
+{
+
+    Cat::Cat()
+    {
+    }
+
+    Cat::~Cat()
+    {
+    }
+
+    void Cat::speak() const
+    {
+        std::cout << "hey I am another cat" << std::endl;
+    }
+
+}

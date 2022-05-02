@@ -14,4 +14,16 @@ public:
     void jump();
 };
 
+namespace bdcb
+{
+    class Cat
+    {
+    public:
+        Cat();
+        ~Cat();
+        void speak() const;
+    };
+
+}
+
 #endif

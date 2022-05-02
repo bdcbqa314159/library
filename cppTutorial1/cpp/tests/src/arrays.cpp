@@ -2,7 +2,8 @@
 #include <string>
 
 using namespace std;
-int main()
+
+void arraysIntro()
 {
     int input = 0;
     int values[3] = {};
@@ -52,6 +53,139 @@ int main()
         cout << "12 * " << i << " = " << ex[i] << endl;
 
     cout << endl;
+}
+
+void show1(const int nElements, string texts[])
+{
+    for (int i = 0; i < nElements; i++)
+    {
+        cout << texts[i] << endl;
+    }
+}
+
+void show2(const int nElements, string *texts)
+{
+    for (int i = 0; i < nElements; i++)
+    {
+        cout << texts[i] << endl;
+    }
+}
+
+void show3(string (&texts)[3])
+{
+    for (int i = 0; i < sizeof(texts) / sizeof(string); i++)
+    {
+        cout << texts[i] << endl;
+    }
+}
+
+char *getMemory()
+{
+    char *pNew = new char[100];
+    return pNew;
+}
+
+void freeMemory(char *pMem)
+{
+    delete[] pMem;
+}
+
+int main()
+{
+    cout << "=============" << endl;
+    cout << "Working with arrays & chars" << endl;
+    char text[] = "hello";
+    int N = sizeof(text) / sizeof(char);
+
+    for (int i = 0; i < N; i++)
+        cout << text[i] << " " << flush;
+    cout << endl;
+
+    int k = 0;
+    while (true)
+    {
+        if (text[k] == '\0')
+            break;
+        cout << text[k] << flush;
+        k++;
+    }
+    cout << endl;
+    cout << "=============" << endl;
+    cout << "Reversing a primitive string in place" << endl;
+
+    char textToReverse[] = "myNameIsC++";
+    int n = sizeof(textToReverse) / sizeof(char);
+    cout << "Before reversing:" << endl;
+    k = 0;
+    while (true)
+    {
+        if (textToReverse[k] == '\0')
+            break;
+        cout << textToReverse[k] << flush;
+        k++;
+    }
+    cout << endl;
+
+    int l = 0;
+    int r = n - 2;
+    while (l < r)
+    {
+        char temp = textToReverse[l];
+        textToReverse[l] = textToReverse[r];
+        textToReverse[r] = temp;
+        l++;
+        r--;
+    }
+
+    cout << "After reversing:" << endl;
+    k = 0;
+    while (true)
+    {
+        if (textToReverse[k] == '\0')
+            break;
+        cout << textToReverse[k] << flush;
+        k++;
+    }
+    cout << endl;
+
+    int nChars = sizeof(textToReverse) - 1;
+    char *pStart = textToReverse;
+    char *pEnd = textToReverse + nChars - 1;
+
+    while (pStart < pEnd)
+    {
+        char save = *pStart;
+        *pStart = *pEnd;
+        *pEnd = save;
+        pStart++;
+        pEnd--;
+    }
+
+    cout << "Reversing with pointers:" << endl;
+    k = 0;
+    while (true)
+    {
+        if (textToReverse[k] == '\0')
+            break;
+        cout << textToReverse[k] << flush;
+        k++;
+    }
+    cout << endl;
+
+    cout << "=============" << endl;
+    cout << "Arrays and functions" << endl;
+
+    string texts[] = {"apple", "orange", "banana"};
+    cout << "If we pass an array in a function we only will have it as a pointer -> we lose the array size information." << endl;
+    show1(3, texts);
+    show2(3, texts);
+    show3(texts);
+
+    cout << "Don't return pointers to local variables! the address is within the scope of the function and it will disappear." << endl;
+
+    cout << "Allocate & deallocate" << endl;
+    char *pMem = getMemory();
+    freeMemory(pMem);
 
     return 0;
 }

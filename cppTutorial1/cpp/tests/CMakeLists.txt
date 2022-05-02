@@ -48,9 +48,18 @@ add_executable(stringStreams src/stringStreams.cpp)
 
 add_executable(pointers src/pointers.cpp)
 add_executable(arithmetic src/arithmetic.cpp)
+add_executable(references src/references.cpp)
 
+add_executable(const src/const.cpp)
+
+add_executable(namespaces src/namespaces.cpp)
+
+add_executable(inheritance src/inheritance.cpp)
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
 target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
+
 target_link_libraries(classes PUBLIC ${CPPTUTORIAL1_LIB})
+
+target_link_libraries(namespaces PUBLIC ${CPPTUTORIAL1_LIB})

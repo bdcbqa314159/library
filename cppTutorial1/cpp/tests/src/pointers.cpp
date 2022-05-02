@@ -50,12 +50,119 @@ void pointersBasics()
     realManipulate(&Val);
     cout << "ValAfter: " << Val << endl;
 }
+void pointerArrays()
+{
+    cout << "Pointers & arrays" << endl;
+    string texts[] = {"one", "two", "three"};
+
+    int N = sizeof(texts) / sizeof(string);
+    cout << N << endl;
+
+    for (int i = 0; i < N; i++)
+    {
+        cout << texts[i] << " " << flush;
+    }
+    cout << endl;
+
+    string *pTexts = texts;
+    for (int i = 0; i < N; i++, pTexts++)
+    {
+        cout << *pTexts << " " << flush;
+    }
+    cout << endl;
+
+    string *pElement = texts;
+    string *pEnd = &texts[N - 1];
+
+    while (true)
+    {
+
+        cout << *pElement << " " << flush;
+        if (pElement == pEnd)
+            break;
+        pElement++;
+    }
+    cout << endl;
+}
+
+void exercise()
+{
+    cout << "Exercise..." << endl;
+    int nums[] = {1, 2, 3, 4, 5, 6, 7};
+    int N = sizeof(nums) / sizeof(int);
+
+    cout << "Size of nums: " << N << endl;
+
+    cout << "Elements of nums with array:" << endl;
+    for (int i = 0; i < N; i++)
+        cout << nums[i] << " " << flush;
+
+    cout << endl;
+
+    int *p = nums;
+
+    cout << "Elements of nums with pointers & deferencing:" << endl;
+    for (int i = 0; i < N; i++, p++)
+        cout << *p << " " << flush;
+
+    cout << endl;
+
+    p = &nums[0];
+    int *pEnd = &nums[N - 1];
+
+    cout << "Elements of nums with two pointer technique:" << endl;
+    while (true)
+    {
+        cout << *p << " " << flush;
+        if (p == pEnd)
+            break;
+        p++;
+    }
+    cout << endl
+         << "Happy coding" << endl;
+}
 
 int main()
 {
-    pointersBasics();
+    // pointersBasics();
+    cout << "==========" << endl;
+    cout << "Pointers & arithmetic" << endl;
 
-        return 0;
+    const int N = 5;
+    string texts[N] = {"one", "two", "three", "four", "five"};
+
+    for (int i = 0; i < N; i++)
+    {
+        cout << texts[i] << " " << flush;
+    }
+    cout << endl;
+
+    string *pTexts = texts;
+    pTexts += N - 1;
+    cout << *pTexts << endl;
+    pTexts--;
+    cout << *pTexts << endl;
+
+    string *pEnd = &texts[N];
+    pTexts = &texts[0];
+
+    while (pTexts != pEnd)
+    {
+        cout << *pTexts << " " << flush;
+        pTexts++;
+    }
+    cout << endl;
+
+    pTexts = &texts[0];
+    int test = pEnd - pTexts; // could be long
+    cout << test << endl;
+
+    pTexts = &texts[0];
+
+    pTexts += N / 2;
+    cout << *pTexts << endl;
+
+    return 0;
 }
 
 void manipulate(int value)
