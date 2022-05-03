@@ -6,5 +6,7 @@
 #include "cppTutorial2_bits/search.hpp"
 #include "cppTutorial2_bits/backtracking.hpp"
 #include "cppTutorial2_bits/dynamicProg.hpp"
+#include "cppTutorial2_bits/list.hpp"
+#include "cppTutorial2_bits/linkedList.hpp"
 
 #endif

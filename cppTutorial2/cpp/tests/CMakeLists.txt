@@ -24,9 +24,12 @@ add_executable(dynamicProg src/dynamicProg.cpp)
 
 add_executable(arrays src/arrays.cpp)
 
+add_executable(linkedList src/linkedList.cpp)
+
 target_link_libraries(test PUBLIC ${CPPTUTORIAL2_LIB}) #update here
 target_link_libraries(recursion PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(search PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(backtracking PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(dynamicProg PUBLIC ${CPPTUTORIAL2_LIB})
-target_link_libraries(arrays PUBLIC ${CPPTUTORIAL2_LIB})
+target_link_libraries(linkedList PUBLIC ${CPPTUTORIAL2_LIB})
+

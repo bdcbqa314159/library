@@ -23,7 +23,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/search.hpp
     ${PROJECT_INCLUDE_DIR}/backtracking.hpp
     ${PROJECT_INCLUDE_DIR}/dynamicProg.hpp
-    
+    ${PROJECT_INCLUDE_DIR}/list.hpp
+    ${PROJECT_INCLUDE_DIR}/linkedList.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
