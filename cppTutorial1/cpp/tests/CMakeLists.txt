@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 project(test)
 
 include_directories(/usr/local/include)
+find_package(SDL2 REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/../bin)
@@ -56,6 +57,14 @@ add_executable(namespaces src/namespaces.cpp)
 
 add_executable(inheritance src/inheritance.cpp)
 
+add_executable(complements src/complements.cpp)
+
+add_executable(testingSDL src/testingSDL.cpp)
+add_executable(particle src/particle.cpp)
+
+add_executable(bitsShift src/bitsShift.cpp)
+add_executable(bitWise src/bitWise.cpp)
+
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
 target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
@@ -63,3 +72,9 @@ target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
 target_link_libraries(classes PUBLIC ${CPPTUTORIAL1_LIB})
 
 target_link_libraries(namespaces PUBLIC ${CPPTUTORIAL1_LIB})
+
+target_link_libraries(testingSDL PUBLIC ${CPPTUTORIAL1_LIB})
+target_link_libraries(testingSDL PUBLIC ${SDL2_LIBRARIES})
+
+target_link_libraries(particle PUBLIC ${CPPTUTORIAL1_LIB})
+target_link_libraries(particle PUBLIC ${SDL2_LIBRARIES})

@@ -5,5 +5,9 @@
 #include "cppTutorial1_bits/utils.hpp"
 #include "cppTutorial1_bits/cat.hpp"
 #include "cppTutorial1_bits/person.hpp"
+#include "cppTutorial1_bits/testingSDL.hpp"
+#include "cppTutorial1_bits/screen.hpp"
+#include "cppTutorial1_bits/particle.hpp"
+#include "cppTutorial1_bits/swarm.hpp"
 
 #endif

@@ -1,0 +1,4 @@
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/XCode/CMakeFiles/cppTutorial1.dir
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/XCode/CMakeFiles/install.dir
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/XCode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/XCode/CMakeFiles/ZERO_CHECK.dir

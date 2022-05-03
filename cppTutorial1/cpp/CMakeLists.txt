@@ -9,6 +9,13 @@ project(cppTutorial1 VERSION 0.1.0) #update here
 # Include dir
 include_directories(/usr/local/include)
 
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
+link_directories(${SDL2_LIB_DIR})
+
+
+
+
 # Src
 AUX_SOURCE_DIRECTORY(src SRC_FILES)
 
@@ -22,12 +29,20 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/utils.hpp
     ${PROJECT_INCLUDE_DIR}/cat.hpp
     ${PROJECT_INCLUDE_DIR}/person.hpp
+    ${PROJECT_INCLUDE_DIR}/testingSDL.hpp
+    ${PROJECT_INCLUDE_DIR}/screen.hpp
+    ${PROJECT_INCLUDE_DIR}/particle.hpp
+    ${PROJECT_INCLUDE_DIR}/swarm.hpp
     
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/utils.cpp
     ${PROJECT_SOURCE_DIR}/cat.cpp
     ${PROJECT_SOURCE_DIR}/person.cpp
+    ${PROJECT_SOURCE_DIR}/testingSDL.cpp
+    ${PROJECT_SOURCE_DIR}/screen.cpp
+    ${PROJECT_SOURCE_DIR}/particle.cpp
+    ${PROJECT_SOURCE_DIR}/swarm.cpp
     
     
 )
@@ -37,6 +52,8 @@ source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${SOURCE_FILES})
 
 # Add library
 add_library(cppTutorial1 SHARED ${SOURCE_FILES}) #update here
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+
 
 # Include directories
 target_include_directories(cppTutorial1 PRIVATE include/cppTutorial1_bits) #update here
