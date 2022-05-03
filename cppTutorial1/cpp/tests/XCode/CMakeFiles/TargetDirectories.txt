@@ -37,5 +37,7 @@
 /Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/testingSDL.dir
 /Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/particle.dir
 /Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/bitsShift.dir
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/bitWise.dir
+/Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/bonus.dir
 /Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/ALL_BUILD.dir
 /Users/bernardocohen/repos/library/cppTutorial1/cpp/tests/XCode/CMakeFiles/ZERO_CHECK.dir

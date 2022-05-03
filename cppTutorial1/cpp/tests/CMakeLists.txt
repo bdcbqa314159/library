@@ -64,6 +64,7 @@ add_executable(particle src/particle.cpp)
 
 add_executable(bitsShift src/bitsShift.cpp)
 add_executable(bitWise src/bitWise.cpp)
+add_executable(bonus src/bonus.cpp)
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
 
