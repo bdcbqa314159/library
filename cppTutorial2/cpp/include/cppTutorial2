@@ -8,5 +8,11 @@
 #include "cppTutorial2_bits/dynamicProg.hpp"
 #include "cppTutorial2_bits/list.hpp"
 #include "cppTutorial2_bits/linkedList.hpp"
+#include "cppTutorial2_bits/stackArray.hpp"
+#include "cppTutorial2_bits/stackLinkedList.hpp"
+#include "cppTutorial2_bits/queue.hpp"
+#include "cppTutorial2_bits/tree.hpp"
+#include "cppTutorial2_bits/bst.hpp"
+#include "cppTutorial2_bits/person.hpp"
 
 #endif

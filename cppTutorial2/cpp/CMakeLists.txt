@@ -25,12 +25,19 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/dynamicProg.hpp
     ${PROJECT_INCLUDE_DIR}/list.hpp
     ${PROJECT_INCLUDE_DIR}/linkedList.hpp
+    ${PROJECT_INCLUDE_DIR}/stackArray.hpp
+    ${PROJECT_INCLUDE_DIR}/stackLinkedList.hpp
+    ${PROJECT_INCLUDE_DIR}/queue.hpp
+    ${PROJECT_INCLUDE_DIR}/tree.hpp
+    ${PROJECT_INCLUDE_DIR}/bst.hpp
+    ${PROJECT_INCLUDE_DIR}/person.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
     ${PROJECT_SOURCE_DIR}/search.cpp
     ${PROJECT_SOURCE_DIR}/backtracking.cpp
     ${PROJECT_SOURCE_DIR}/dynamicProg.cpp
+    ${PROJECT_SOURCE_DIR}/person.cpp
     
     
 )
