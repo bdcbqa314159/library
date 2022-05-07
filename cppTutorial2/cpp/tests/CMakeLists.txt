@@ -28,6 +28,7 @@ add_executable(linkedList src/linkedList.cpp)
 add_executable(stack src/stack.cpp)
 add_executable(queue src/queue.cpp)
 add_executable(bst src/bst.cpp)
+add_executable(heap src/heap.cpp)
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL2_LIB}) #update here
 target_link_libraries(recursion PUBLIC ${CPPTUTORIAL2_LIB})
@@ -38,4 +39,5 @@ target_link_libraries(linkedList PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(stack PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(queue PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(bst PUBLIC ${CPPTUTORIAL2_LIB})
+target_link_libraries(heap PUBLIC ${CPPTUTORIAL2_LIB})
 

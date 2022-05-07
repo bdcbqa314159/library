@@ -14,5 +14,6 @@
 #include "cppTutorial2_bits/tree.hpp"
 #include "cppTutorial2_bits/bst.hpp"
 #include "cppTutorial2_bits/person.hpp"
+#include "cppTutorial2_bits/heap.hpp"
 
 #endif
