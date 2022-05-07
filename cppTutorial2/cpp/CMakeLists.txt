@@ -32,6 +32,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/bst.hpp
     ${PROJECT_INCLUDE_DIR}/person.hpp
     ${PROJECT_INCLUDE_DIR}/heap.hpp
+    ${PROJECT_INCLUDE_DIR}/hashTable.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
@@ -40,6 +41,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/dynamicProg.cpp
     ${PROJECT_SOURCE_DIR}/person.cpp
     ${PROJECT_SOURCE_DIR}/heap.cpp
+    ${PROJECT_SOURCE_DIR}/hashTable.cpp
     
     
 )
