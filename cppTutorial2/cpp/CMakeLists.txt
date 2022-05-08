@@ -33,6 +33,9 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/person.hpp
     ${PROJECT_INCLUDE_DIR}/heap.hpp
     ${PROJECT_INCLUDE_DIR}/hashTable.hpp
+    ${PROJECT_INCLUDE_DIR}/vertex.hpp
+    ${PROJECT_INCLUDE_DIR}/bfs.hpp
+    ${PROJECT_INCLUDE_DIR}/dfs.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
@@ -42,6 +45,9 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/person.cpp
     ${PROJECT_SOURCE_DIR}/heap.cpp
     ${PROJECT_SOURCE_DIR}/hashTable.cpp
+    ${PROJECT_SOURCE_DIR}/vertex.cpp
+    ${PROJECT_SOURCE_DIR}/bfs.cpp
+    ${PROJECT_SOURCE_DIR}/dfs.cpp
     
     
 )
@@ -59,7 +65,7 @@ target_include_directories(cppTutorial2 PRIVATE include/cppTutorial2_bits) #upda
 install(TARGETS cppTutorial2 DESTINATION lib) #update here
 
 # Install the headers
-install(FILES include/cppTutorial2 DESTINATION include) #update here
+install(FILES include/cppTutorial2.hpp DESTINATION include) #update here
 
 # Create base directory
 install(DIRECTORY include/cppTutorial2_bits DESTINATION include) #update here

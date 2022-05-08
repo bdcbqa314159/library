@@ -16,5 +16,8 @@
 #include "cppTutorial2_bits/person.hpp"
 #include "cppTutorial2_bits/heap.hpp"
 #include "cppTutorial2_bits/hashTable.hpp"
+#include "cppTutorial2_bits/vertex.hpp"
+#include "cppTutorial2_bits/bfs.hpp"
+#include "cppTutorial2_bits/dfs.hpp"
 
 #endif
