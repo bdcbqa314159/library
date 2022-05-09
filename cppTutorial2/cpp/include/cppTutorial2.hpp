@@ -19,5 +19,8 @@
 #include "cppTutorial2_bits/vertex.hpp"
 #include "cppTutorial2_bits/bfs.hpp"
 #include "cppTutorial2_bits/dfs.hpp"
+#include "cppTutorial2_bits/edge.hpp"
+#include "cppTutorial2_bits/dijkstra.hpp"
+#include "cppTutorial2_bits/bellmanFord.hpp"
 
 #endif

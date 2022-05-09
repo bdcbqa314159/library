@@ -32,6 +32,8 @@ add_executable(heap src/heap.cpp)
 add_executable(hashTable src/hashTable.cpp)
 add_executable(bfs src/bfs.cpp)
 add_executable(dfs src/dfs.cpp)
+add_executable(dijkstra src/dijkstra.cpp)
+add_executable(bellmanFord src/bellmanFord.cpp)
 
 target_link_libraries(test PUBLIC ${CPPTUTORIAL2_LIB}) #update here
 target_link_libraries(recursion PUBLIC ${CPPTUTORIAL2_LIB})
@@ -46,4 +48,6 @@ target_link_libraries(heap PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(hashTable PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(bfs PUBLIC ${CPPTUTORIAL2_LIB})
 target_link_libraries(dfs PUBLIC ${CPPTUTORIAL2_LIB})
+target_link_libraries(dijkstra PUBLIC ${CPPTUTORIAL2_LIB})
+target_link_libraries(bellmanFord PUBLIC ${CPPTUTORIAL2_LIB})
 

@@ -36,6 +36,9 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/vertex.hpp
     ${PROJECT_INCLUDE_DIR}/bfs.hpp
     ${PROJECT_INCLUDE_DIR}/dfs.hpp
+    ${PROJECT_INCLUDE_DIR}/edge.hpp
+    ${PROJECT_INCLUDE_DIR}/dijkstra.hpp
+    ${PROJECT_INCLUDE_DIR}/bellmanFord.hpp
     
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/recursion.cpp
@@ -48,6 +51,9 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/vertex.cpp
     ${PROJECT_SOURCE_DIR}/bfs.cpp
     ${PROJECT_SOURCE_DIR}/dfs.cpp
+    ${PROJECT_SOURCE_DIR}/edge.cpp
+    ${PROJECT_SOURCE_DIR}/dijkstra.cpp
+    ${PROJECT_SOURCE_DIR}/bellmanFord.cpp
     
     
 )
