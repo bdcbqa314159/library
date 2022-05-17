@@ -1,0 +1,7 @@
+#ifndef CPPBOOK2_LIBRARY_H // update here
+#define CPPBOOK2_LIBRARY_H
+
+#include "cppBook2_bits/test.hpp"
+#include "cppBook2_bits/collatz.hpp"
+
+#endif
