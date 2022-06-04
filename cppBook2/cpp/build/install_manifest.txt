@@ -1,0 +1,4 @@
+/usr/local/lib/libcppBook2.dylib
+/usr/local/include/cppBook2
+/usr/local/include/cppBook2_bits/.DS_Store
+/usr/local/include/cppBook2_bits/test.hpp

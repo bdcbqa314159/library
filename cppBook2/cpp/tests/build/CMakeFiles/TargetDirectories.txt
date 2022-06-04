@@ -1,0 +1,4 @@
+/Users/bernardocohen/repos/library/cppBook2/cpp/tests/build/CMakeFiles/test.dir
+/Users/bernardocohen/repos/library/cppBook2/cpp/tests/build/CMakeFiles/problem.dir
+/Users/bernardocohen/repos/library/cppBook2/cpp/tests/build/CMakeFiles/edit_cache.dir
+/Users/bernardocohen/repos/library/cppBook2/cpp/tests/build/CMakeFiles/rebuild_cache.dir
