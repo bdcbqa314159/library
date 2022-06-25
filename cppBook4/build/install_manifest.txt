@@ -1,0 +1,1 @@
+/usr/local/anaconda3/lib/python3.9/site-packages/myNumpy.cpython-39-darwin.so

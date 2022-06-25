@@ -1,0 +1,11 @@
+#ifndef CPPBOOK4_LIBRARY_H // update here
+#define CPPBOOK4_LIBRARY_H
+
+#include "cppBook4_bits/test.hpp"
+#include "cppBook4_bits/nr.hpp"
+#include "cppBook4_bits/interp_1d.hpp"
+#include "cppBook4_bits/interp_linear.hpp"
+#include "cppBook4_bits/polcoef.hpp"
+#include "cppBook4_bits/interp_2d.hpp"
+
+#endif

@@ -1,0 +1,9 @@
+#ifndef CPPTUTORIAL3_LIBRARY_H // update here
+#define CPPTUTORIAL3_LIBRARY_H
+
+#include "cppTutorial3_bits/test.hpp"
+#include "cppTutorial3_bits/testing.hpp"
+#include "cppTutorial3_bits/arrays.hpp"
+#include "cppTutorial3_bits/sorting.hpp"
+
+#endif

@@ -12,11 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/../bin)
 
-find_library(CPPBOOK3_LIB cppBook3 HINTS /usr/local/lib/) #update here
+find_library(CPPBOOK4_LIB cppBook4 HINTS /usr/local/lib/) # update here
 
 add_executable(test src/test.cpp)
 
-target_link_libraries(test PUBLIC ${CPPBOOK3_LIB}) #update here
-
-add_executable(basics src/basics.cpp)
-
+target_link_libraries(test PUBLIC ${CPPBOOK4_LIB}) # update here
