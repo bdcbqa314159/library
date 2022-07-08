@@ -25,3 +25,7 @@ target_link_libraries(arrays PUBLIC ${CPPTUTORIAL3_LIB})
 add_executable(sorting src/sorting.cpp)
 
 target_link_libraries(sorting PUBLIC ${CPPTUTORIAL3_LIB})
+
+add_executable(strings src/strings.cpp)
+
+target_link_libraries(strings PUBLIC ${CPPTUTORIAL3_LIB})

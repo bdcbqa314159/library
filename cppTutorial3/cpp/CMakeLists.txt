@@ -21,12 +21,13 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/test.hpp
     ${PROJECT_INCLUDE_DIR}/testing.hpp
     ${PROJECT_INCLUDE_DIR}/arrays.hpp
-    ${PROJECT_INCLUDE_DIR}/sorting.hpp
+    ${PROJECT_INCLUDE_DIR}/strings.hpp
 
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/testing.cpp
     ${PROJECT_SOURCE_DIR}/arrays.cpp
     ${PROJECT_SOURCE_DIR}/sorting.cpp
+    ${PROJECT_SOURCE_DIR}/strings.cpp
 )
 
 # Set up such that XCode organizes the files correctly

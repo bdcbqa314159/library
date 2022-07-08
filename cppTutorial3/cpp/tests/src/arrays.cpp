@@ -23,9 +23,32 @@ void arrayTestNo2()
     testingMaxSubarrays();
 }
 
+void characterArraysTest()
+{
+    // characterArraysHW();
+    giveAlphaDigitsSpaces();
+    characterArrays();
+}
+
+void testingShortestPath()
+{
+    cout << "Solution for shortest path:" << endl;
+    cout << "Give a path:" << endl;
+    shortestPath();
+}
+
+void testingLargestSentenceProblem()
+{
+    cout << "We will give the largest sentence from a group of n sentences and its length:" << endl;
+    largestString();
+}
+
 int main()
 {
     // arrayTest();
-    arrayTestNo2();
+    // arrayTestNo2();
+    // characterArraysTest();
+    // testingShortestPath();
+    testingLargestSentenceProblem();
     return 0;
 }

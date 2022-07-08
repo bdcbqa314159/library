@@ -15,4 +15,10 @@ int maxSubarrayVersion2(int *arr, int n);
 int maxSubarrayVersion3(int *arr, int n);
 int maxSubarrayVersion4(int *arr, int n);
 
+void characterArraysHW();
+void giveAlphaDigitsSpaces();
+void characterArrays();
+void shortestPath();
+void largestString();
+
 #endif

@@ -5,5 +5,6 @@
 #include "cppTutorial3_bits/testing.hpp"
 #include "cppTutorial3_bits/arrays.hpp"
 #include "cppTutorial3_bits/sorting.hpp"
+#include "cppTutorial3_bits/strings.hpp"
 
 #endif
