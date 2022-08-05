@@ -81,3 +81,19 @@ void countingSort(vector<int> &a)
         }
     }
 }
+
+void bubbleSortRecursive(vector<int> &a, int n, int j)
+{
+    if (n == 1)
+        return;
+
+    if (j == n - 1)
+    {
+        return bubbleSortRecursive(a, n - 1, 0);
+    }
+
+    if (a[j] > a[j + 1])
+        swap(a[j], a[j + 1]);
+
+    return bubbleSortRecursive(a, n, j + 1);
+}

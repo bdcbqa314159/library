@@ -11,5 +11,6 @@ void bubbleSort(vector<int> &a);
 void insertionSort(vector<int> &a);
 void selectionSort(vector<int> &a);
 void countingSort(vector<int> &a);
+void bubbleSortRecursive(vector<int> &a, int n, int j);
 
 #endif

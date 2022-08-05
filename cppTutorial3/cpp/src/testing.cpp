@@ -151,6 +151,20 @@ void testingBubbleSort()
     showVector(a);
 
     cout << "\nAll good, goodbye." << endl;
+
+    vector<int> b{-2, 3, 12, -1, 5, -12, 6, 90, 3};
+
+    cout << "Showing the vector first: " << endl;
+    showVector(b);
+
+    int n = b.size();
+    cout << "Now Sorting.." << endl;
+    bubbleSortRecursive(b, n, 0);
+
+    cout << "Showing the vector sorted via bubble sort recursive: " << endl;
+    showVector(b);
+
+    cout << "\nAll good, goodbye." << endl;
 }
 
 void testingInsertionSort()

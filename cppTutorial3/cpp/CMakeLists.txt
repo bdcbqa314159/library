@@ -22,12 +22,47 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/testing.hpp
     ${PROJECT_INCLUDE_DIR}/arrays.hpp
     ${PROJECT_INCLUDE_DIR}/strings.hpp
+    ${PROJECT_INCLUDE_DIR}/multiDimArrays.hpp
+    ${PROJECT_INCLUDE_DIR}/myVector.hpp
+    ${PROJECT_INCLUDE_DIR}/bitManipulations.hpp
+    ${PROJECT_INCLUDE_DIR}/recursion.hpp
+    ${PROJECT_INCLUDE_DIR}/divideConquer.hpp
+    ${PROJECT_INCLUDE_DIR}/backtracking.hpp
+    ${PROJECT_INCLUDE_DIR}/spaceTime.hpp
+    ${PROJECT_INCLUDE_DIR}/nodes.hpp
+    ${PROJECT_INCLUDE_DIR}/oops.hpp
+    ${PROJECT_INCLUDE_DIR}/stacks.hpp
+    ${PROJECT_INCLUDE_DIR}/queues.hpp
+    ${PROJECT_INCLUDE_DIR}/binaryTrees.hpp
+    ${PROJECT_INCLUDE_DIR}/bst.hpp
+    ${PROJECT_INCLUDE_DIR}/heaps.hpp
+    ${PROJECT_INCLUDE_DIR}/graph.hpp
+    ${PROJECT_INCLUDE_DIR}/dp.hpp
+    ${PROJECT_INCLUDE_DIR}/tries.hpp
+    ${PROJECT_INCLUDE_DIR}/shoppingCart.hpp
 
     ${PROJECT_SOURCE_DIR}/test.cpp
     ${PROJECT_SOURCE_DIR}/testing.cpp
     ${PROJECT_SOURCE_DIR}/arrays.cpp
     ${PROJECT_SOURCE_DIR}/sorting.cpp
     ${PROJECT_SOURCE_DIR}/strings.cpp
+    ${PROJECT_SOURCE_DIR}/multiDimArrays.cpp
+    ${PROJECT_SOURCE_DIR}/myVector.cpp
+    ${PROJECT_SOURCE_DIR}/bitManipulations.cpp
+    ${PROJECT_SOURCE_DIR}/recursion.cpp
+    ${PROJECT_SOURCE_DIR}/divideConquer.cpp
+    ${PROJECT_SOURCE_DIR}/backtracking.cpp
+    ${PROJECT_SOURCE_DIR}/spaceTime.cpp
+    ${PROJECT_SOURCE_DIR}/oops.cpp
+    ${PROJECT_SOURCE_DIR}/stacks.cpp
+    ${PROJECT_SOURCE_DIR}/queues.cpp
+    ${PROJECT_SOURCE_DIR}/binaryTrees.cpp
+    ${PROJECT_SOURCE_DIR}/bst.cpp
+    ${PROJECT_SOURCE_DIR}/heaps.cpp
+    ${PROJECT_SOURCE_DIR}/graph.cpp
+    ${PROJECT_SOURCE_DIR}/dp.cpp
+    ${PROJECT_SOURCE_DIR}/tries.cpp
+    ${PROJECT_SOURCE_DIR}/shoppingCart.cpp
 )
 
 # Set up such that XCode organizes the files correctly
