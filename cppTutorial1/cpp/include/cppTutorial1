@@ -9,5 +9,14 @@
 #include "cppTutorial1_bits/screen.hpp"
 #include "cppTutorial1_bits/particle.hpp"
 #include "cppTutorial1_bits/swarm.hpp"
+#include "cppTutorial1_bits/templates.hpp"
+#include "cppTutorial1_bits/bitmapFileHeader.hpp"
+#include "cppTutorial1_bits/bitmapInfoHeader.hpp"
+#include "cppTutorial1_bits/bitmap.hpp"
+#include "cppTutorial1_bits/mandelbrot.hpp"
+#include "cppTutorial1_bits/zoom.hpp"
+#include "cppTutorial1_bits/zoomList.hpp"
+#include "cppTutorial1_bits/fractalCreator.hpp"
+#include "cppTutorial1_bits/rgb.hpp"
 
 #endif

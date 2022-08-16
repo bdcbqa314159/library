@@ -13,7 +13,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/../bin)
 
-find_library(CPPTUTORIAL1_LIB cppTutorial1 HINTS /usr/local/lib/) #update here
+find_library(CPPTUTORIAL1_LIB cppTutorial1 HINTS /usr/local/lib/) # update here
 
 add_executable(test src/test.cpp)
 add_executable(helloWorld src/helloWorld.cpp)
@@ -66,7 +66,23 @@ add_executable(bitsShift src/bitsShift.cpp)
 add_executable(bitWise src/bitWise.cpp)
 add_executable(bonus src/bonus.cpp)
 
-target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) #update here
+add_executable(exceptions src/exceptions.cpp)
+add_executable(files src/files.cpp)
+add_executable(stl src/stl.cpp)
+target_link_libraries(stl PUBLIC ${CPPTUTORIAL1_LIB})
+
+add_executable(overloading src/overloading.cpp)
+add_executable(templates src/templates.cpp)
+target_link_libraries(templates PUBLIC ${CPPTUTORIAL1_LIB})
+
+add_executable(functionsPointers src/functionsPointers.cpp)
+
+add_executable(c++11 src/c++11.cpp)
+target_link_libraries(c++11 PUBLIC ${CPPTUTORIAL1_LIB})
+
+add_executable(multiThreading src/multiThreading.cpp)
+
+target_link_libraries(test PUBLIC ${CPPTUTORIAL1_LIB}) # update here
 
 target_link_libraries(headersInclude PUBLIC ${CPPTUTORIAL1_LIB})
 
@@ -79,3 +95,6 @@ target_link_libraries(testingSDL PUBLIC ${SDL2_LIBRARIES})
 
 target_link_libraries(particle PUBLIC ${CPPTUTORIAL1_LIB})
 target_link_libraries(particle PUBLIC ${SDL2_LIBRARIES})
+
+add_executable(fractal src/fractal.cpp)
+target_link_libraries(fractal PUBLIC ${CPPTUTORIAL1_LIB})

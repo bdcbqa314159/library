@@ -10,6 +10,12 @@ Person::Person(std::string name) : name(name), age(0)
 {
 }
 
+Person::Person(const Person &other)
+{
+    name = other.name;
+    age = other.age;
+}
+
 Person::Person(std::string name, int age) : name(name), age(age)
 {
 }
@@ -18,7 +24,15 @@ Person::~Person()
 {
 }
 
-std::string Person::toString()
+bool Person::operator<(const Person &other) const
+{
+    if (name == other.name)
+        return age < other.age;
+    else
+        return name < other.name;
+}
+
+std::string Person::toString() const
 {
     std::stringstream ss;
     ss << "Person name : " << name << std::endl
