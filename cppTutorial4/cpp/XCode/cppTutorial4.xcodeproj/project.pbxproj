@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		11AAA460122046F98547D6F6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B20C4B48C78473494BF185F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				552CB58CC8664EA3ACC20CFD /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		477BB4AE3BC849179D3E4067 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 128D6FE586014320AF5E1234 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D5A8D64E78D5CA583D789F52 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				62A137AC367B437CAC82BDD7 /* PBXTargetDependency */,
+				2E83765DB2F74A159EB0F74E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EEDE903E258B47D69F280756 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C723D0EF30444B76904851E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F8B1E8C246EFB52CC71B74C2 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1EBC2C3BC3AC4E61935FC5BD /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E391CA5689994C5FAA0D025C /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */; };
+		5BE46557C0F64A88AEFE6F8E /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/src/test.cpp */ = {isa = PBXBuildFile; fileRef = 60FC025FD1104FBF92683537 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/src/test.cpp */; };
+		D6338BE905D649078E65F22C /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits/test.hpp */ = {isa = PBXBuildFile; fileRef = E2192DF07486401DA16F68E9 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits/test.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		32F6F4C7A6B4413FA356ADC5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9A0559C6882C499EBF00886A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		CABC10E66A194639A051E3EB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FE672C1B8F1B4CE3B3049AB0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3115F78F124DE58BED78BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92416CB2482A44E9B1F18DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9CEBDFDAEF4B0C9B48B54E;
+			remoteInfo = cppTutorial4;
+		};
+		4E478BC436D94DF3AF356ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92416CB2482A44E9B1F18DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDE903E258B47D69F280756;
+			remoteInfo = ZERO_CHECK;
+		};
+		9DC8FD7E08934D7381DE77F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92416CB2482A44E9B1F18DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDE903E258B47D69F280756;
+			remoteInfo = ZERO_CHECK;
+		};
+		C79313C448B14149B43108E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92416CB2482A44E9B1F18DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 477BB4AE3BC849179D3E4067;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		498398935FF14093ACC7D599 /* cppTutorial4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcppTutorial4.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FC025FD1104FBF92683537 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/src/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = src/test.cpp; sourceTree = SOURCE_ROOT; };
+		DB52CDFF86844F8FB6E1FCB3 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2192DF07486401DA16F68E9 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits/test.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test.hpp; path = include/cppTutorial4_bits/test.hpp; sourceTree = SOURCE_ROOT; };
+		E391CA5689994C5FAA0D025C /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8952011B87C84E7698A34330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC3381011E94FF88F58740D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A26B1DA0B3144BC6A12F48BB /* cppTutorial4_bits */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		35B965AA938541B89980679C = {
+			isa = PBXGroup;
+			children = (
+				79792648F6B048679608B45F /* cppTutorial4 */,
+				869C79A8F46E4D3A84AB7A32 /* ALL_BUILD */,
+				A16B8FBBAB4A4CFB9D9E0B72 /* Products */,
+				4FF64C9A4ADC445FA4E7CEAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF64C9A4ADC445FA4E7CEAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772933002C0F45ABB07DE638 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				60FC025FD1104FBF92683537 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/src/test.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		79792648F6B048679608B45F /* cppTutorial4 */ = {
+			isa = PBXGroup;
+			children = (
+				0AC3381011E94FF88F58740D /* include */,
+				772933002C0F45ABB07DE638 /* src */,
+				E391CA5689994C5FAA0D025C /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */,
+			);
+			name = cppTutorial4;
+			sourceTree = "<group>";
+		};
+		869C79A8F46E4D3A84AB7A32 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9037D2D8E1874AB39584CFB0 /* CMake Rules */,
+				DB52CDFF86844F8FB6E1FCB3 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9037D2D8E1874AB39584CFB0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A16B8FBBAB4A4CFB9D9E0B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498398935FF14093ACC7D599 /* cppTutorial4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26B1DA0B3144BC6A12F48BB /* cppTutorial4_bits */ = {
+			isa = PBXGroup;
+			children = (
+				E2192DF07486401DA16F68E9 /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits/test.hpp */,
+			);
+			name = cppTutorial4_bits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9CEBDFDAEF4B0C9B48B54E /* cppTutorial4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2766DB8A098444CE857BCBE2 /* Build configuration list for PBXNativeTarget "cppTutorial4" */;
+			buildPhases = (
+				75DAB6028D2B453C8FA8A072 /* Sources */,
+				8952011B87C84E7698A34330 /* Frameworks */,
+				D520588DEB4A747B39B243FB /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6031A7941CBF4F15BB60CD35 /* PBXTargetDependency */,
+			);
+			name = cppTutorial4;
+			productName = cppTutorial4;
+			productReference = 498398935FF14093ACC7D599 /* cppTutorial4 */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92416CB2482A44E9B1F18DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = DE9D5BED6BD24781969AD05A /* Build configuration list for PBXProject "cppTutorial4" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				32F6F4C7A6B4413FA356ADC5 /* Debug */,
+				CABC10E66A194639A051E3EB /* Release */,
+				FE672C1B8F1B4CE3B3049AB0 /* MinSizeRel */,
+				9A0559C6882C499EBF00886A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 35B965AA938541B89980679C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				477BB4AE3BC849179D3E4067 /* ALL_BUILD */,
+				EEDE903E258B47D69F280756 /* ZERO_CHECK */,
+				2B9CEBDFDAEF4B0C9B48B54E /* cppTutorial4 */,
+				11AAA460122046F98547D6F6 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D520588DEB4A747B39B243FB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -E cmake_symlink_library /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Debug/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Debug/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Debug/libcppTutorial4.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -E cmake_symlink_library /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Release/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Release/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/Release/libcppTutorial4.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -E cmake_symlink_library /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/MinSizeRel/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/MinSizeRel/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/MinSizeRel/libcppTutorial4.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  /usr/local/Cellar/cmake/3.22.0/bin/cmake -E cmake_symlink_library /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/RelWithDebInfo/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/RelWithDebInfo/libcppTutorial4.dylib /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/RelWithDebInfo/libcppTutorial4.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D5A8D64E78D5CA583D789F52 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F8B1E8C246EFB52CC71B74C2 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  make -f /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  make -f /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  make -f /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode
+  make -f /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DAB6028D2B453C8FA8A072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE46557C0F64A88AEFE6F8E /* /Users/bernardocohen/repos/library/cppTutorial4/cpp/src/test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E83765DB2F74A159EB0F74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9CEBDFDAEF4B0C9B48B54E /* cppTutorial4 */;
+			targetProxy = 0F3115F78F124DE58BED78BF /* PBXContainerItemProxy */;
+		};
+		552CB58CC8664EA3ACC20CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 477BB4AE3BC849179D3E4067 /* ALL_BUILD */;
+			targetProxy = C79313C448B14149B43108E5 /* PBXContainerItemProxy */;
+		};
+		6031A7941CBF4F15BB60CD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDE903E258B47D69F280756 /* ZERO_CHECK */;
+			targetProxy = 4E478BC436D94DF3AF356ACD /* PBXContainerItemProxy */;
+		};
+		62A137AC367B437CAC82BDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDE903E258B47D69F280756 /* ZERO_CHECK */;
+			targetProxy = 9DC8FD7E08934D7381DE77F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1066A36E693B495998348457 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppTutorial4_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppTutorial4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1544EE863FEB4B5C8DFA8456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppTutorial4_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppTutorial4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3EEF2C6B45C64778ACD2E622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		458ADC862C5D4AF9A7AB61EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/build;
+			};
+			name = Debug;
+		};
+		5702E20AF9354CD3A2F22AA0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D96C16514D84318BBDEEE4D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		726E7C64FF044462B5A7DA62 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		79AC9F5EBB904075A065B1D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		856C506F9D824DAD8F5E7243 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		90572B8F682142A2AD045823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		98AD4FC90C894A65BB5BF34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B7AD0554BC394544B7B9B779 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		D85B5A14947743F19E844898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppTutorial4_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppTutorial4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DF07B7AF28A74F698BC4F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0338718432A4F0E8B7913A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/build;
+			};
+			name = Release;
+		};
+		E4D501CEF9EA47969689C0A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC7DA71D0AB74F08856C20DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EDD80C1B44D24BD0957CBD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF7380CB027B486CA3A3650D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppTutorial4_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/library/cppTutorial4/cpp/include/cppTutorial4_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppTutorial4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F0AEE1C920444A71A2A6B6F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/library/cppTutorial4/cpp/XCode/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128D6FE586014320AF5E1234 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AD4FC90C894A65BB5BF34E /* Debug */,
+				3EEF2C6B45C64778ACD2E622 /* Release */,
+				E4D501CEF9EA47969689C0A9 /* MinSizeRel */,
+				6D96C16514D84318BBDEEE4D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B20C4B48C78473494BF185F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90572B8F682142A2AD045823 /* Debug */,
+				EC7DA71D0AB74F08856C20DD /* Release */,
+				79AC9F5EBB904075A065B1D0 /* MinSizeRel */,
+				726E7C64FF044462B5A7DA62 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2766DB8A098444CE857BCBE2 /* Build configuration list for PBXNativeTarget "cppTutorial4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1544EE863FEB4B5C8DFA8456 /* Debug */,
+				D85B5A14947743F19E844898 /* Release */,
+				1066A36E693B495998348457 /* MinSizeRel */,
+				EF7380CB027B486CA3A3650D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C723D0EF30444B76904851E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF07B7AF28A74F698BC4F0DF /* Debug */,
+				EDD80C1B44D24BD0957CBD8B /* Release */,
+				5702E20AF9354CD3A2F22AA0 /* MinSizeRel */,
+				856C506F9D824DAD8F5E7243 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE9D5BED6BD24781969AD05A /* Build configuration list for PBXProject "cppTutorial4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458ADC862C5D4AF9A7AB61EE /* Debug */,
+				E0338718432A4F0E8B7913A1 /* Release */,
+				F0AEE1C920444A71A2A6B6F8 /* MinSizeRel */,
+				B7AD0554BC394544B7B9B779 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92416CB2482A44E9B1F18DFF /* Project object */;
+}

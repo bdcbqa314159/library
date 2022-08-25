@@ -1,0 +1,17 @@
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/test.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/introduction.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/conditions.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/loops.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/arrays.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/pointers.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/strings.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/functions.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/oops.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/overloading.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/inheritance.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/baseClassPointer.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/polymorphism.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/errors.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/ios.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/library/cppTutorial4/cpp/tests/XCode/CMakeFiles/ZERO_CHECK.dir

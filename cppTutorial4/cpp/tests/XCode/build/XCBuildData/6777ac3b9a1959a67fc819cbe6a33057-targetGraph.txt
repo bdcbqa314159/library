@@ -1,0 +1,31 @@
+Target dependency graph (11 targets)
+ZERO_CHECK in test, no dependencies
+loops in test, depends on:
+ZERO_CHECK in test (explicit)
+arrays in test, depends on:
+ZERO_CHECK in test (explicit)
+pointers in test, depends on:
+ZERO_CHECK in test (explicit)
+strings in test, depends on:
+ZERO_CHECK in test (explicit)
+functions in test, depends on:
+ZERO_CHECK in test (explicit)
+oops in test, depends on:
+ZERO_CHECK in test (explicit)
+test in test, depends on:
+ZERO_CHECK in test (explicit)
+introduction in test, depends on:
+ZERO_CHECK in test (explicit)
+conditions in test, depends on:
+ZERO_CHECK in test (explicit)
+ALL_BUILD in test, depends on:
+loops in test (explicit)
+arrays in test (explicit)
+pointers in test (explicit)
+strings in test (explicit)
+functions in test (explicit)
+oops in test (explicit)
+test in test (explicit)
+introduction in test (explicit)
+conditions in test (explicit)
+ZERO_CHECK in test (explicit)

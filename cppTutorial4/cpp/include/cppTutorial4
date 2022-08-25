@@ -1,0 +1,6 @@
+#ifndef CPPTUTORIAL4_LIBRARY_H // update here
+#define CPPTUTORIAL4_LIBRARY_H
+
+#include "cppTutorial4_bits/test.hpp"
+
+#endif
