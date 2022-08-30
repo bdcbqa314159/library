@@ -1,0 +1,12 @@
+#ifndef CPPBOOK5_LIBRARY_H // update here
+#define CPPBOOK5_LIBRARY_H
+
+#include "cppBook5_bits/test.hpp"
+#include "cppBook5_bits/book.hpp"
+#include "cppBook5_bits/complex.hpp"
+#include "cppBook5_bits/guest.hpp"
+#include "cppBook5_bits/odeSolvers.hpp"
+#include "cppBook5_bits/myException.hpp"
+#include "cppBook5_bits/myVector.hpp"
+
+#endif
