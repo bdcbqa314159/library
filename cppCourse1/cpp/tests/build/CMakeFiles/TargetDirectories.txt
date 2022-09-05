@@ -1,0 +1,4 @@
+/Users/bernardocohen/repos/library/cppCourse1/cpp/tests/build/CMakeFiles/test.dir
+/Users/bernardocohen/repos/library/cppCourse1/cpp/tests/build/CMakeFiles/lecture1.dir
+/Users/bernardocohen/repos/library/cppCourse1/cpp/tests/build/CMakeFiles/edit_cache.dir
+/Users/bernardocohen/repos/library/cppCourse1/cpp/tests/build/CMakeFiles/rebuild_cache.dir
